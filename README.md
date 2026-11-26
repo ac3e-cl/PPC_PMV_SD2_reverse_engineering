@@ -34,7 +34,7 @@ Se versiona explícitamente la biblioteca estática Release en `artifacts/Releas
 cd artifacts/Release && sha256sum -c libPPC_PMV_SD2_reverse_engineering.a.sha256
 ```
 
-No hay `.elf` ni `.bin` porque este proyecto solo produce una biblioteca estática; no contiene startup, vectores, mapa de memoria/linker script, runtime ni datos para un firmware arrancable. No se inventaron artefactos ejecutables a partir de los fragmentos.
+No se generan `.elf` ni `.bin` con el target CMake de la biblioteca. La carpeta `artifacts/Release/` incluye además el par `firmware.elf`/`firmware.bin` de la reconstrucción mixta completa verificada previamente, junto con checksums. El `.bin` coincide byte a byte con la imagen de referencia. El ELF es un contenedor ejecutable minimalista de ese mismo binario con segmento `.firmware` y entry point tomado del vector de reset; no tiene símbolos DWARF y no fue enlazado desde este repositorio porque faltan componentes de startup/runtime/datos. Detalles en `artifacts/Release/README.md`.
 
 ## Pruebas
 
