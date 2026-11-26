@@ -1,0 +1,3326 @@
+{
+  "target": "STM32G474RET6",
+  "classification": "mixed-source reconstructed firmware fragments; C entries are independently compiled and hash-tested; not a single-link project",
+  "toolchain": "GNU Tools for STM32 13.3.1 (arm-none-eabi GCC)",
+  "c_entries": [
+    {
+      "name": "NMI_Handler",
+      "source": "Core/Src/src/core.c",
+      "address": "0x08002646",
+      "size": 8,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "71d470edd069b9f9980b2752282b72067863d4704cf8e2d4a591cc00dfb6d3b6"
+    },
+    {
+      "name": "HardFault_Handler",
+      "source": "Core/Src/src/core.c",
+      "address": "0x0800264e",
+      "size": 8,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "71d470edd069b9f9980b2752282b72067863d4704cf8e2d4a591cc00dfb6d3b6"
+    },
+    {
+      "name": "MemManage_Handler",
+      "source": "Core/Src/src/core.c",
+      "address": "0x08002656",
+      "size": 8,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "71d470edd069b9f9980b2752282b72067863d4704cf8e2d4a591cc00dfb6d3b6"
+    },
+    {
+      "name": "BusFault_Handler",
+      "source": "Core/Src/src/core.c",
+      "address": "0x0800265e",
+      "size": 8,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "71d470edd069b9f9980b2752282b72067863d4704cf8e2d4a591cc00dfb6d3b6"
+    },
+    {
+      "name": "UsageFault_Handler",
+      "source": "Core/Src/src/core.c",
+      "address": "0x08002666",
+      "size": 8,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "71d470edd069b9f9980b2752282b72067863d4704cf8e2d4a591cc00dfb6d3b6"
+    },
+    {
+      "name": "SVC_Handler",
+      "source": "Core/Src/src/core.c",
+      "address": "0x0800266e",
+      "size": 14,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "66165520b981b78ccb78c0b4f1e78bbff0207e8d8a35ec5bd724624f6c6fdfc5"
+    },
+    {
+      "name": "DebugMon_Handler",
+      "source": "Core/Src/src/core.c",
+      "address": "0x0800267c",
+      "size": 14,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "66165520b981b78ccb78c0b4f1e78bbff0207e8d8a35ec5bd724624f6c6fdfc5"
+    },
+    {
+      "name": "PendSV_Handler",
+      "source": "Core/Src/src/core.c",
+      "address": "0x0800268a",
+      "size": 14,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "66165520b981b78ccb78c0b4f1e78bbff0207e8d8a35ec5bd724624f6c6fdfc5"
+    },
+    {
+      "name": "SysTick_Handler",
+      "source": "Core/Src/src/core.c",
+      "address": "0x08002698",
+      "size": 12,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "964a4a01253b226e1b14ca8683e41454f396e938989e65f45254ded504947d94"
+    },
+    {
+      "name": "FUN_08003d38",
+      "source": "Core/Src/src/core.c",
+      "address": "0x08003d38",
+      "size": 20,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "fbe292c7038d8a1504a8ef366df2006975ff463df8c8061c07a9cd20be923a37"
+    },
+    {
+      "name": "FUN_08003d4c",
+      "source": "Core/Src/src/core.c",
+      "address": "0x08003d4c",
+      "size": 20,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "fbe292c7038d8a1504a8ef366df2006975ff463df8c8061c07a9cd20be923a37"
+    },
+    {
+      "name": "FUN_08003d60",
+      "source": "Core/Src/src/core.c",
+      "address": "0x08003d60",
+      "size": 20,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "fbe292c7038d8a1504a8ef366df2006975ff463df8c8061c07a9cd20be923a37"
+    },
+    {
+      "name": "FUN_08004ac0",
+      "source": "Core/Src/src/core.c",
+      "address": "0x08004ac0",
+      "size": 20,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "fbe292c7038d8a1504a8ef366df2006975ff463df8c8061c07a9cd20be923a37"
+    },
+    {
+      "name": "FUN_08004ad4",
+      "source": "Core/Src/src/core.c",
+      "address": "0x08004ad4",
+      "size": 20,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "fbe292c7038d8a1504a8ef366df2006975ff463df8c8061c07a9cd20be923a37"
+    },
+    {
+      "name": "FUN_08004ae8",
+      "source": "Core/Src/src/core.c",
+      "address": "0x08004ae8",
+      "size": 20,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "fbe292c7038d8a1504a8ef366df2006975ff463df8c8061c07a9cd20be923a37"
+    },
+    {
+      "name": "FUN_08004afc",
+      "source": "Core/Src/src/core.c",
+      "address": "0x08004afc",
+      "size": 20,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "fbe292c7038d8a1504a8ef366df2006975ff463df8c8061c07a9cd20be923a37"
+    },
+    {
+      "name": "FUN_08004b10",
+      "source": "Core/Src/src/core.c",
+      "address": "0x08004b10",
+      "size": 20,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "fbe292c7038d8a1504a8ef366df2006975ff463df8c8061c07a9cd20be923a37"
+    },
+    {
+      "name": "FUN_080059fa",
+      "source": "Core/Src/src/core.c",
+      "address": "0x080059fa",
+      "size": 22,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "b73d25f228c9922f1cb272a59664f9917de61a6deef84fe10fdfac39e357e362"
+    },
+    {
+      "name": "FUN_08005a10",
+      "source": "Core/Src/src/core.c",
+      "address": "0x08005a10",
+      "size": 22,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "b73d25f228c9922f1cb272a59664f9917de61a6deef84fe10fdfac39e357e362"
+    },
+    {
+      "name": "FUN_08005a26",
+      "source": "Core/Src/src/core.c",
+      "address": "0x08005a26",
+      "size": 20,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "fbe292c7038d8a1504a8ef366df2006975ff463df8c8061c07a9cd20be923a37"
+    },
+    {
+      "name": "FUN_08005a3a",
+      "source": "Core/Src/src/core.c",
+      "address": "0x08005a3a",
+      "size": 22,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "b73d25f228c9922f1cb272a59664f9917de61a6deef84fe10fdfac39e357e362"
+    },
+    {
+      "name": "FUN_08005a50",
+      "source": "Core/Src/src/core.c",
+      "address": "0x08005a50",
+      "size": 22,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "b73d25f228c9922f1cb272a59664f9917de61a6deef84fe10fdfac39e357e362"
+    },
+    {
+      "name": "FUN_08005a66",
+      "source": "Core/Src/src/core.c",
+      "address": "0x08005a66",
+      "size": 20,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "fbe292c7038d8a1504a8ef366df2006975ff463df8c8061c07a9cd20be923a37"
+    },
+    {
+      "name": "FUN_08005a7a",
+      "source": "Core/Src/src/core.c",
+      "address": "0x08005a7a",
+      "size": 20,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "fbe292c7038d8a1504a8ef366df2006975ff463df8c8061c07a9cd20be923a37"
+    },
+    {
+      "name": "FUN_08005a8e",
+      "source": "Core/Src/src/core.c",
+      "address": "0x08005a8e",
+      "size": 20,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "fbe292c7038d8a1504a8ef366df2006975ff463df8c8061c07a9cd20be923a37"
+    },
+    {
+      "name": "FUN_08005aa2",
+      "source": "Core/Src/src/core.c",
+      "address": "0x08005aa2",
+      "size": 20,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "fbe292c7038d8a1504a8ef366df2006975ff463df8c8061c07a9cd20be923a37"
+    },
+    {
+      "name": "FUN_08005ab6",
+      "source": "Core/Src/src/core.c",
+      "address": "0x08005ab6",
+      "size": 22,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "b73d25f228c9922f1cb272a59664f9917de61a6deef84fe10fdfac39e357e362"
+    },
+    {
+      "name": "FUN_08009674",
+      "source": "Core/Src/src/core.c",
+      "address": "0x08009674",
+      "size": 20,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "fbe292c7038d8a1504a8ef366df2006975ff463df8c8061c07a9cd20be923a37"
+    },
+    {
+      "name": "FUN_08009688",
+      "source": "Core/Src/src/core.c",
+      "address": "0x08009688",
+      "size": 20,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "fbe292c7038d8a1504a8ef366df2006975ff463df8c8061c07a9cd20be923a37"
+    },
+    {
+      "name": "FUN_0800969c",
+      "source": "Core/Src/src/core.c",
+      "address": "0x0800969c",
+      "size": 20,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "fbe292c7038d8a1504a8ef366df2006975ff463df8c8061c07a9cd20be923a37"
+    },
+    {
+      "name": "FUN_080096b0",
+      "source": "Core/Src/src/core.c",
+      "address": "0x080096b0",
+      "size": 20,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "fbe292c7038d8a1504a8ef366df2006975ff463df8c8061c07a9cd20be923a37"
+    },
+    {
+      "name": "FUN_08009958",
+      "source": "Core/Src/src/core.c",
+      "address": "0x08009958",
+      "size": 20,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "fbe292c7038d8a1504a8ef366df2006975ff463df8c8061c07a9cd20be923a37"
+    },
+    {
+      "name": "FUN_0800996c",
+      "source": "Core/Src/src/core.c",
+      "address": "0x0800996c",
+      "size": 20,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "fbe292c7038d8a1504a8ef366df2006975ff463df8c8061c07a9cd20be923a37"
+    },
+    {
+      "name": "FUN_08009980",
+      "source": "Core/Src/src/core.c",
+      "address": "0x08009980",
+      "size": 20,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "fbe292c7038d8a1504a8ef366df2006975ff463df8c8061c07a9cd20be923a37"
+    },
+    {
+      "name": "FUN_08009994",
+      "source": "Core/Src/src/core.c",
+      "address": "0x08009994",
+      "size": 20,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "fbe292c7038d8a1504a8ef366df2006975ff463df8c8061c07a9cd20be923a37"
+    },
+    {
+      "name": "FUN_080099a8",
+      "source": "Core/Src/src/core.c",
+      "address": "0x080099a8",
+      "size": 20,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "fbe292c7038d8a1504a8ef366df2006975ff463df8c8061c07a9cd20be923a37"
+    },
+    {
+      "name": "FUN_080099bc",
+      "source": "Core/Src/src/core.c",
+      "address": "0x080099bc",
+      "size": 20,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "fbe292c7038d8a1504a8ef366df2006975ff463df8c8061c07a9cd20be923a37"
+    },
+    {
+      "name": "FUN_080099d0",
+      "source": "Core/Src/src/core.c",
+      "address": "0x080099d0",
+      "size": 20,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "fbe292c7038d8a1504a8ef366df2006975ff463df8c8061c07a9cd20be923a37"
+    },
+    {
+      "name": "HAL_IncTick",
+      "source": "Core/Src/src/core.c",
+      "address": "0x080029f4",
+      "size": 36,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "ac5d5744545a99f0aec1fd827f7bc7ee7a9d67b983463ab9825f0e609b4a4259"
+    },
+    {
+      "name": "HAL_GetTick",
+      "source": "Core/Src/src/core.c",
+      "address": "0x08002a18",
+      "size": 24,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "bc70e24567b859901f75c8a2d0e115b51987e8025f1d8f2f90a3139b6af9bd9d"
+    },
+    {
+      "name": "FUN_0800385e",
+      "source": "Core/Src/src/core.c",
+      "address": "0x0800385e",
+      "size": 26,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "ab0125295df0fe2f4782b235aae78a95256148320f5d8cee0b254ce45aa60204"
+    },
+    {
+      "name": "FUN_080028d8",
+      "source": "Core/Src/src/core.c",
+      "address": "0x080028d8",
+      "size": 36,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "7b0b7aa80fcc17b1f766a5b8646752b85d249541e6c3d3d4496da1c3911fb560"
+    },
+    {
+      "name": "FUN_08004d7c",
+      "source": "Core/Src/src/core.c",
+      "address": "0x08004d7c",
+      "size": 28,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "1732060dceb920302656ce4b37fcf7b9b880b2f8113abeed1648fd9b83dccd26"
+    },
+    {
+      "name": "FUN_08008330",
+      "source": "Core/Src/src/core.c",
+      "address": "0x08008330",
+      "size": 32,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "ab294081635b966aa2a1c2799c49021b6f42eb1e48a7073b3e4ef6517ed8d1c0"
+    },
+    {
+      "name": "HAL_Delay",
+      "source": "Core/Src/src/core.c",
+      "address": "0x08002a30",
+      "size": 68,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "2f14a6f4d0bf84395a020a23c5ee0ed0129766d22a04ed9d87cda159a0070294"
+    },
+    {
+      "name": "IRQ_55",
+      "source": "Core/Src/src/core.c",
+      "address": "0x080028b0",
+      "size": 20,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "d667b71a7eaffb6e7a280162893a55aa58264d29c091a2ca64fc044fa72bd785"
+    },
+    {
+      "name": "IRQ_86",
+      "source": "Core/Src/src/core.c",
+      "address": "0x080028c4",
+      "size": 20,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "544cd47415ff0867213fed4f1675247694d28c326ecbf3b043a5a1293bf92f26"
+    },
+    {
+      "name": "FUN_08004ed4",
+      "source": "Core/Src/src/core.c",
+      "address": "0x08004ed4",
+      "size": 22,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "819245405f4fcc39974d4410f7c421b3e885d054e15f68e5ec27b93897f7f883"
+    },
+    {
+      "name": "FUN_08004f1e",
+      "source": "Core/Src/src/core.c",
+      "address": "0x08004f1e",
+      "size": 28,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "ff2f7d0d1aee80a5af2c31e1db8f15333da6f02d06752a02a5f721bb2acc3786"
+    },
+    {
+      "name": "FUN_08004f3a",
+      "source": "Core/Src/src/core.c",
+      "address": "0x08004f3a",
+      "size": 24,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "b9c250b618842c7624fe6e5c8681f8ec5ed5a93ee9b28da220b3a539e8e6a858"
+    },
+    {
+      "name": "FUN_080055a4",
+      "source": "Core/Src/src/core.c",
+      "address": "0x080055a4",
+      "size": 36,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "d9c17a631d64bac8e0ea39c8bfc381ee8d18cf2eba294dbd2ef260e06e4a0669"
+    },
+    {
+      "name": "FUN_08004956",
+      "source": "Core/Src/src/core.c",
+      "address": "0x08004956",
+      "size": 38,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "1e251a140f0e5fb9cbd9a1518cf31863d6e440d94eb300da50ee43d941b8170b"
+    },
+    {
+      "name": "FUN_080049ae",
+      "source": "Core/Src/src/core.c",
+      "address": "0x080049ae",
+      "size": 40,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "14b726cf4dc7076b4827daaa29dca7b30ab260967a476c5d5d55f4b1b921dde5"
+    },
+    {
+      "name": "FUN_080049d6",
+      "source": "Core/Src/src/core.c",
+      "address": "0x080049d6",
+      "size": 38,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "21428a362ded948094a9075ee23944b0c2b651faf1901c8ffa207b700cbac969"
+    },
+    {
+      "name": "FUN_08002a74",
+      "source": "Core/Src/candidates_small/FUN_08002a74.c",
+      "address": "0x08002a74",
+      "size": 38,
+      "flags": "-O0 -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -std=c11",
+      "defsyms": {},
+      "sha256": "6aa4c4d71981639675e1ff6e118d4214b4b65ba1ea87e546582b0a6423224d41"
+    },
+    {
+      "name": "FUN_08002a9a",
+      "source": "Core/Src/candidates_small/FUN_08002a9a.c",
+      "address": "0x08002a9a",
+      "size": 38,
+      "flags": "-O0 -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -std=c11",
+      "defsyms": {},
+      "sha256": "c1eab99879cf380e98efc0bb0e90fc65600acb5367ebf0f55a82c799f2ea8cd2"
+    },
+    {
+      "name": "FUN_08002ac0",
+      "source": "Core/Src/candidates_small/FUN_08002ac0.c",
+      "address": "0x08002ac0",
+      "size": 28,
+      "flags": "-O0 -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -std=c11",
+      "defsyms": {},
+      "sha256": "01f406d59e11777f82bbba566d1c830a762e6d8d0cbe98fc2f9285bdd44f5edf"
+    },
+    {
+      "name": "FUN_08002adc",
+      "source": "Core/Src/candidates_small/FUN_08002adc.c",
+      "address": "0x08002adc",
+      "size": 72,
+      "flags": "-O0 -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -std=c11",
+      "defsyms": {},
+      "sha256": "0dd689e24b8a8f89411d7851f48a0daada9eaac709dc8de4d22757c267adea55"
+    },
+    {
+      "name": "FUN_08002b24",
+      "source": "Core/Src/candidates_small/FUN_08002b24.c",
+      "address": "0x08002b24",
+      "size": 44,
+      "flags": "-O0 -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -std=c11",
+      "defsyms": {},
+      "sha256": "8f33e1c5e6258fdefb62e5fd1aa7b825b94c20eb2eadf0ce4785879da9ecd2b5"
+    },
+    {
+      "name": "FUN_08002b50",
+      "source": "Core/Src/candidates_small/FUN_08002b50.c",
+      "address": "0x08002b50",
+      "size": 54,
+      "flags": "-O0 -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -std=c11",
+      "defsyms": {},
+      "sha256": "a99d37183af605342ebb2be6f20c336d628ccd3bd73f2996e12abb9cbf093d03"
+    },
+    {
+      "name": "FUN_08002b86",
+      "source": "Core/Src/candidates_small/FUN_08002b86.c",
+      "address": "0x08002b86",
+      "size": 54,
+      "flags": "-O0 -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -std=c11",
+      "defsyms": {},
+      "sha256": "7cf1cfae8b9b43aed5503767ab5b7b66f0c3043e95163e110adf5c431b88e2a6"
+    },
+    {
+      "name": "FUN_08002bbc",
+      "source": "Core/Src/candidates_small/FUN_08002bbc.c",
+      "address": "0x08002bbc",
+      "size": 54,
+      "flags": "-O0 -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -std=c11",
+      "defsyms": {},
+      "sha256": "06cae90d1655ca24b5607fa6defa1f5a83739b979edf5b96497ceeb244a5b10c"
+    },
+    {
+      "name": "FUN_08002bf2",
+      "source": "Core/Src/candidates_small/FUN_08002bf2.c",
+      "address": "0x08002bf2",
+      "size": 38,
+      "flags": "-O0 -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -std=c11",
+      "defsyms": {},
+      "sha256": "45067abcbc426cd1d80dcd6de89255d37758847b64c6c5e0a58ca5f9464f1b44"
+    },
+    {
+      "name": "FUN_08002c18",
+      "source": "Core/Src/candidates_small/FUN_08002c18.c",
+      "address": "0x08002c18",
+      "size": 38,
+      "flags": "-O0 -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -std=c11",
+      "defsyms": {},
+      "sha256": "ae9f2ea6ebcd30a9025b59eb8c60f67130a262ce49570507656f6e9c704895db"
+    },
+    {
+      "name": "FUN_08002c3e",
+      "source": "Core/Src/candidates_small/FUN_08002c3e.c",
+      "address": "0x08002c3e",
+      "size": 88,
+      "flags": "-O0 -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -std=c11",
+      "defsyms": {},
+      "sha256": "fee2181867f17d824866c7c1e00123d11b72ef7cd98803971f903d8043f0237a"
+    },
+    {
+      "name": "FUN_08002c96",
+      "source": "Core/Src/candidates_small/FUN_08002c96.c",
+      "address": "0x08002c96",
+      "size": 38,
+      "flags": "-O0 -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -std=c11",
+      "defsyms": {},
+      "sha256": "0367b509a3e8c2c5b72cfa57acf520a46ce51bd9e7ae9f8c71cc1367b4112ee7"
+    },
+    {
+      "name": "FUN_08002cbc",
+      "source": "Core/Src/candidates_small/FUN_08002cbc.c",
+      "address": "0x08002cbc",
+      "size": 86,
+      "flags": "-O0 -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -std=c11",
+      "defsyms": {},
+      "sha256": "b8dafccbdfc7ac6cb86e20f57ccc2ef938695854620318f51ca7ebbc7cc9f4a8"
+    },
+    {
+      "name": "FUN_08002d14",
+      "source": "Core/Src/candidates_small/FUN_08002d14.c",
+      "address": "0x08002d14",
+      "size": 72,
+      "flags": "-O0 -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -std=c11",
+      "defsyms": {},
+      "sha256": "0c16bb84aca59c171b142876a574d0c90c005d905face32aeff484e039e19f18"
+    },
+    {
+      "name": "FUN_08002d5c",
+      "source": "Core/Src/candidates_small/FUN_08002d5c.c",
+      "address": "0x08002d5c",
+      "size": 28,
+      "flags": "-O0 -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -std=c11",
+      "defsyms": {},
+      "sha256": "983fb71489cacb3ce7a37799683d600de5f2af47b0fb50784628e4842802881d"
+    },
+    {
+      "name": "FUN_08002d78",
+      "source": "Core/Src/candidates_small/FUN_08002d78.c",
+      "address": "0x08002d78",
+      "size": 28,
+      "flags": "-O0 -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -std=c11",
+      "defsyms": {},
+      "sha256": "fe3e56498c19eb6b907d59dfd257498d954621f67ea1350fc225397d0d68b1e6"
+    },
+    {
+      "name": "FUN_08002d94",
+      "source": "Core/Src/candidates_small/FUN_08002d94.c",
+      "address": "0x08002d94",
+      "size": 36,
+      "flags": "-O0 -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -std=c11",
+      "defsyms": {},
+      "sha256": "469e9d40d94252d2dfb1956dcc2d4ff956aeb47dbab3bb145ad2b45e5cf178f9"
+    },
+    {
+      "name": "FUN_08002db8",
+      "source": "Core/Src/candidates_small/FUN_08002db8.c",
+      "address": "0x08002db8",
+      "size": 40,
+      "flags": "-O0 -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -std=c11",
+      "defsyms": {},
+      "sha256": "db3457d540cbc1d6b8e739ef861db5d36b3e8d334f7d964af41009b447f13dda"
+    },
+    {
+      "name": "FUN_08002de0",
+      "source": "Core/Src/candidates_small/FUN_08002de0.c",
+      "address": "0x08002de0",
+      "size": 40,
+      "flags": "-O0 -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -std=c11",
+      "defsyms": {},
+      "sha256": "6c904d141eb543031aa31771d7cf570371ce24adf56bbe7543ebfe25c0c2ba45"
+    },
+    {
+      "name": "FUN_08002e08",
+      "source": "Core/Src/candidates_small/FUN_08002e08.c",
+      "address": "0x08002e08",
+      "size": 40,
+      "flags": "-O0 -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -std=c11",
+      "defsyms": {},
+      "sha256": "e84ff05b6a67ed24a8d62e9d67aa7b036391e29f307e6aa06389d9ef00ef7336"
+    },
+    {
+      "name": "FUN_08002e30",
+      "source": "Core/Src/candidates_small/FUN_08002e30.c",
+      "address": "0x08002e30",
+      "size": 40,
+      "flags": "-O0 -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -std=c11",
+      "defsyms": {},
+      "sha256": "822914d840d1f070f858a3d2badb9eef2b9b7312da568a6ca9e53880ac1ec130"
+    },
+    {
+      "name": "FUN_08002e58",
+      "source": "Core/Src/candidates_small/FUN_08002e58.c",
+      "address": "0x08002e58",
+      "size": 40,
+      "flags": "-O0 -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -std=c11",
+      "defsyms": {},
+      "sha256": "86efbe6ca76f15f1be7e38cba82cd7610e17006b4ae0ef614d56698adc80ec2d"
+    },
+    {
+      "name": "FUN_08002e80",
+      "source": "Core/Src/candidates_small/FUN_08002e80.c",
+      "address": "0x08002e80",
+      "size": 38,
+      "flags": "-O0 -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -std=c11",
+      "defsyms": {},
+      "sha256": "1e251a140f0e5fb9cbd9a1518cf31863d6e440d94eb300da50ee43d941b8170b"
+    },
+    {
+      "name": "FUN_08002ea6",
+      "source": "Core/Src/candidates_small/FUN_08002ea6.c",
+      "address": "0x08002ea6",
+      "size": 38,
+      "flags": "-O0 -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -std=c11",
+      "defsyms": {},
+      "sha256": "49941698f75ad46a47a00448bd1d0d2ef5c6e42a669a1a706ad59fe38818b4d8"
+    },
+    {
+      "name": "FUN_08002ecc",
+      "source": "Core/Src/candidates_small/FUN_08002ecc.c",
+      "address": "0x08002ecc",
+      "size": 40,
+      "flags": "-O0 -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -std=c11",
+      "defsyms": {},
+      "sha256": "fb0c9994be181428d119425fc2ff2e44bf423fcbd376776a651f9cd99970b585"
+    },
+    {
+      "name": "FUN_08002ef4",
+      "source": "Core/Src/candidates_small/FUN_08002ef4.c",
+      "address": "0x08002ef4",
+      "size": 40,
+      "flags": "-O0 -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -std=c11",
+      "defsyms": {},
+      "sha256": "2ddd955e918f4e986dcb7d931c1cc9276d059f3712397bb7fbc2e7300e5a5e60"
+    },
+    {
+      "name": "FUN_08002f1c",
+      "source": "Core/Src/candidates_small/FUN_08002f1c.c",
+      "address": "0x08002f1c",
+      "size": 38,
+      "flags": "-O0 -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -std=c11",
+      "defsyms": {},
+      "sha256": "21428a362ded948094a9075ee23944b0c2b651faf1901c8ffa207b700cbac969"
+    },
+    {
+      "name": "FUN_08002f42",
+      "source": "Core/Src/candidates_small/FUN_08002f42.c",
+      "address": "0x08002f42",
+      "size": 40,
+      "flags": "-O0 -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -std=c11",
+      "defsyms": {},
+      "sha256": "76cb58626b41fcf2efe8810f829f7f0f989a0095a167b567b3f77d8c388190d2"
+    },
+    {
+      "name": "FUN_08002f6a",
+      "source": "Core/Src/candidates_small/FUN_08002f6a.c",
+      "address": "0x08002f6a",
+      "size": 38,
+      "flags": "-O0 -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -std=c11",
+      "defsyms": {},
+      "sha256": "a345d05b6d7563367f558f0894e60acb51891c1546e24b524c9fa7c8a87e068c"
+    },
+    {
+      "name": "FUN_08008bec",
+      "source": "Core/Src/small_e/FUN_08008bec.c",
+      "address": "0x08008bec",
+      "size": 196,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections"
+      ],
+      "defsyms": [
+        "RCC=0x40021000"
+      ],
+      "sha256": "6616e4ed6c1dc508edb0285b1c360185dc88eccb2533a81f46481b6925de9001"
+    },
+    {
+      "name": "FUN_08008cb0",
+      "source": "Core/Src/small_e/clock_divider.c",
+      "address": "0x08008cb0",
+      "size": 140,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections"
+      ],
+      "defsyms": {},
+      "sha256": "71f4fa79673399c4a28e4f5fe8f2b7c20e9dbb643308f1dd7135a4e34da247e7"
+    },
+    {
+      "name": "IRQ_0",
+      "source": "Core/Src/small_e/irq0.c",
+      "address": "0x0800294c",
+      "size": 2,
+      "flags": [
+        "-Os",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16"
+      ],
+      "defsyms": {},
+      "sha256": "575fc8fa9e92ffe7d57a6aef6f1168f39da04f07d6bcd5b5e17883bff7b33165"
+    },
+    {
+      "name": "FUN_0800294e",
+      "source": "Core/Src/small_e/startup_check.c",
+      "address": "0x0800294e",
+      "size": 48,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections"
+      ],
+      "defsyms": {},
+      "sha256": "a979250cca327f5bd296e6c07013ed55ecaa8ef303291abe16aeb0f5cacd58a7"
+    },
+    {
+      "name": "FUN_08005fa0",
+      "source": "Core/Src/gpio/FUN_08005fa0.c",
+      "address": "0x08005fa0",
+      "size": 48,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections"
+      ],
+      "defsyms": {},
+      "sha256": "10b00234c712f7d06bea8fcf079ee24de8e1c9394f6de5b2808db8f7a93fb1a5"
+    },
+    {
+      "name": "FUN_08005fd0",
+      "source": "Core/Src/gpio/FUN_08005fd0.c",
+      "address": "0x08005fd0",
+      "size": 52,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections"
+      ],
+      "defsyms": {},
+      "sha256": "3c31581c773ee5461e3174467d85c1ccd43e35ab14b1fa8e3659fddec5732906"
+    },
+    {
+      "name": "FUN_08002980",
+      "source": "Core/Src/small_j/FUN_08002980.c",
+      "address": "0x08002980",
+      "size": 116,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-fno-pic",
+        "-fno-pie"
+      ],
+      "defsyms": {},
+      "sha256": "739211ae95ba43504c7d9d4b96401855500db74cdd8a2622cf55cbb94e5daa43"
+    },
+    {
+      "name": "FUN_0800497c",
+      "source": "Core/Src/periph_c/FUN_0800497c.c",
+      "address": "0x0800497c",
+      "size": 50,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin"
+      ],
+      "defsyms": {},
+      "sha256": "9103940f2d64df39ccb5e9e1586517e7472f426bacb0f8cb7642a41e8b29039b"
+    },
+    {
+      "name": "FUN_08004d34",
+      "source": "Core/Src/periph_c/FUN_08004d34.c",
+      "address": "0x08004d34",
+      "size": 72,
+      "flags": [
+        "-O0",
+        "-mthumb",
+        "-mcpu=cortex-m4",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "7965d62105e763df3e01cd69f9cfe22a7c0088a461b3b35d5bd6421632a93045"
+    },
+    {
+      "name": "FUN_08004eea",
+      "source": "Core/Src/periph_b/FUN_08004eea.c",
+      "address": "0x08004eea",
+      "size": 52,
+      "flags": [
+        "-O0",
+        "-mthumb",
+        "-mcpu=cortex-m4",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-std=c11"
+      ],
+      "defsyms": {},
+      "sha256": "6f3dea25ba5232ad84dd21aa1299193c2dff548327b9d300d5893aa03a2af946"
+    },
+    {
+      "name": "FUN_08009378",
+      "source": "Core/Src/periph_h/FUN_08009378.c",
+      "address": "0x08009378",
+      "size": 94,
+      "flags": [
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-O0",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffunction-sections",
+        "-fwrapv",
+        "-Wall",
+        "-Wextra",
+        "-Werror"
+      ],
+      "defsyms": {},
+      "sha256": "d2ddfff431c8acdd652293729b73c1641b1ba8b71513f6c9de31c632873b197c"
+    },
+    {
+      "name": "FUN_080034d0",
+      "source": "Core/Src/periph_i/mux_request.c",
+      "address": "0x080034d0",
+      "size": 102,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections"
+      ],
+      "defsyms": {},
+      "sha256": "238e0bdc04fb96e890f9b6d02ce72931bd4b73b4007898eb80eebc7793aacacc"
+    },
+    {
+      "name": "FUN_080037e8",
+      "source": "Core/Src/periph_k/FUN_080037e8.c",
+      "address": "0x080037e8",
+      "size": 118,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections"
+      ],
+      "defsyms": {},
+      "sha256": "684fc4529d9b5dd42f0039b78ebcd3da1fb1f853118883e820c41bffee011175"
+    },
+    {
+      "name": "FUN_08004898",
+      "source": "Core/Src/periph_k/FUN_08004898.c",
+      "address": "0x08004898",
+      "size": 190,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "955d2ac442cc457376ece518110abc27fd9edb8ef2c396d6cc9ee437b9218722"
+    },
+    {
+      "name": "FUN_08007794",
+      "source": "Core/Src/periph_j/FUN_08007794.c",
+      "address": "0x08007794",
+      "size": 98,
+      "flags": [
+        "-O0",
+        "-mthumb",
+        "-mcpu=cortex-m4",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Werror"
+      ],
+      "defsyms": {},
+      "sha256": "a22a47b631f6a1ca15b84ac02358df6f9796100506e92f5150e4778dbfd47d78"
+    },
+    {
+      "name": "FUN_080099e4",
+      "source": "Core/Src/small_s/FUN_080099e4.c",
+      "address": "0x080099e4",
+      "size": 16,
+      "flags": [
+        "-Os",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections"
+      ],
+      "defsyms": {},
+      "sha256": "9b992ee6e518ade6aeccbcc2f9595e3383491ddd472d229742a9aba1ea9f673f"
+    },
+    {
+      "name": "FUN_08004d98",
+      "source": "Core/Src/small_aw/v4.c",
+      "address": "0x08004d98",
+      "size": 60,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "993dd79e9747f63b39dfe7620c42e47d7f0276785124b27392211b9eb6f40954"
+    },
+    {
+      "name": "FUN_08002244",
+      "source": "Core/Src/small_b2244/FUN_08002244.c",
+      "address": "0x08002244",
+      "size": 12,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "6c89f4aa05b43ef35f2dfbbf6628d0ab0d24c71460ae726dc96d21cd6147e4ad"
+    },
+    {
+      "name": "FUN_08002404",
+      "source": "Core/Src/small_c2404/v1.c",
+      "address": "0x08002404",
+      "size": 196,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-asynchronous-unwind-tables",
+        "-fno-unwind-tables"
+      ],
+      "defsyms": {
+        "FUN_080099e4": "0x080099e5",
+        "FUN_08008d3c": "0x08008d3d",
+        "FUN_08002244": "0x08002245",
+        "FUN_08005c9c": "0x08005c9d",
+        "FUN_08004eea": "0x08004eeb",
+        "FUN_08004f1e": "0x08004f1f"
+      },
+      "sha256": "51f8c89653769a0dfa431cd0900f3231d7892c7b51ff4375d350edcaaa29e6b8"
+    },
+    {
+      "name": "FUN_080096c4",
+      "source": "Core/Src/small_f96c4/v1.c",
+      "address": "0x080096c4",
+      "size": 360,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-asynchronous-unwind-tables",
+        "-fno-unwind-tables"
+      ],
+      "defsyms": {},
+      "sha256": "108ddf7a09b83688b3f7baf08395eccf694a701af2de0f9e20cb1fb21f266d06"
+    },
+    {
+      "name": "FUN_08005c9c",
+      "source": "Core/Src/small_d5c9c/v1.c",
+      "address": "0x08005c9c",
+      "size": 772,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-asynchronous-unwind-tables",
+        "-fno-unwind-tables"
+      ],
+      "defsyms": {},
+      "sha256": "0c036dabcf66f25c59f83bb75eca720ad957a4998ee4d0fc9b3b5785e890561c"
+    },
+    {
+      "name": "FUN_08004dd4",
+      "source": "Core/Src/small_e4dd4/v10.c",
+      "address": "0x08004dd4",
+      "size": 84,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-asynchronous-unwind-tables",
+        "-fno-unwind-tables"
+      ],
+      "defsyms": {},
+      "sha256": "9c5828f8cc739a97c0fcf83b5350769a0d2a10f96d5a5f22712c5c4770d5c44b"
+    },
+    {
+      "name": "FUN_080091d8",
+      "source": "Core/Src/small_b91d8/FUN_080091d8.c",
+      "address": "0x080091d8",
+      "size": 174,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {
+        "FUN_080025e0": "0x080025e1",
+        "FUN_080096c4": "0x080096c5"
+      },
+      "sha256": "d14ae0b5d4b83bbea030b0c3c9c7fe504e22fc04c327de8753bb4148892e8bec"
+    },
+    {
+      "name": "FUN_080055c8",
+      "source": "Core/Src/small_g55c8/FUN_080055c8.c",
+      "address": "0x080055c8",
+      "size": 460,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "bb601335baf339ff7d72d083491d313c563b7cd621c6c9379ba08514ac0d9ba3"
+    },
+    {
+      "name": "FUN_080018cc",
+      "source": "Core/Src/small_h18cc/FUN_080018cc.c",
+      "address": "0x080018cc",
+      "size": 1324,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "7a0162d9cf32e393fd2d97e00cde30e0c64bf48bbfc009b5e824ce745820efe4"
+    },
+    {
+      "name": "FUN_08006bcc",
+      "source": "Core/Src/small_h6bcc/FUN_08006bcc.c",
+      "address": "0x08006bcc",
+      "size": 984,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "a669902b6542e5044b40c65bf3993cd489305766c68ec3b9fcf6a8340c8aace2"
+    },
+    {
+      "name": "FUN_08003878",
+      "source": "Core/Src/small_h3878/FUN_08003878.c",
+      "address": "0x08003878",
+      "size": 1216,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "da46e37321eb47a4417fd9c607560e934ebf7e375daa944e57cdc1910e4de163"
+    },
+    {
+      "name": "FUN_08001ff0",
+      "source": "Core/Src/small_1ff0/FUN_08001ff0.c",
+      "address": "0x08001ff0",
+      "size": 196,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {
+        "BASE_48000400": "0x48000400",
+        "BASE_48000800": "0x48000800",
+        "BASE_48000C00": "0x48000c00",
+        "PARAM_BLOCK": "0x20000164",
+        "HANDLE_A": "0x20000094",
+        "HANDLE_B": "0x20000028",
+        "FUN_08005fa0": "0x08005fa1",
+        "FUN_08002a30": "0x08002a31",
+        "FUN_080077f6": "0x080077f7",
+        "FUN_080078aa": "0x080078ab",
+        "FUN_08002f90": "0x08002f91",
+        "FUN_08002244": "0x08002245",
+        "FUN_08003538": "0x08003539"
+      },
+      "sha256": "1e17e2f187b224e54fb26e60a9ea0e4d0d163c336dddef89c344446f682738d9"
+    },
+    {
+      "name": "FUN_0800630c",
+      "source": "Core/Src/small_i630c/FUN_0800630c.c",
+      "address": "0x0800630c",
+      "size": 896,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "2a761eb2e540cd93cd017c036a903b92dab0f6e6632bd42ac9fedca9b6550976"
+    },
+    {
+      "name": "FUN_08001e6c",
+      "source": "Core/Src/small_j1e6c/FUN_08001e6c.c",
+      "address": "0x08001e6c",
+      "size": 336,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {
+        "FUN_08005fa0": "0x08005fa1",
+        "FUN_08005c9c": "0x08005c9d"
+      },
+      "sha256": "6111f4f18ffea7eda5a4c1072a171129607b4f53e251adbb268f752246dfc22e"
+    },
+    {
+      "name": "FUN_08001654",
+      "source": "Core/Src/small_b1654/FUN_08001654.c",
+      "address": "0x08001654",
+      "size": 244,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {
+        "REQ_BLOCK": "0x20000028",
+        "FUN_080099e4": "0x080099e5",
+        "FUN_08002f90": "0x08002f91",
+        "FUN_08004b24": "0x08004b25",
+        "FUN_08003d74": "0x08003d75",
+        "FUN_08002244": "0x08002245"
+      },
+      "sha256": "04c3659b47dea15780d2640c88822d27895e2dafcf86abbaeec1eecf59efe4af"
+    },
+    {
+      "name": "FUN_08009288",
+      "source": "Core/Src/small_b9288/FUN_08009288.c",
+      "address": "0x08009288",
+      "size": 240,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "e61d17a6eeb8b808d829de5feb417c99545e95e4648e4554fdec469e82ef7617"
+    },
+    {
+      "name": "FUN_08001748",
+      "source": "Core/Src/small_1748/FUN_08001748.c",
+      "address": "0x08001748",
+      "size": 204,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {
+        "ADC2_HANDLE": "0x20000094",
+        "FUN_08002f90": "0x08002f90",
+        "FUN_08003d74": "0x08003d74",
+        "FUN_08002244": "0x08002244",
+        "memset": "0x080099e4"
+      },
+      "sha256": "0b89b4b008e7e291068476162754f8b127a0208d22ba909a530fa5df4f59b66d"
+    },
+    {
+      "name": "FUN_08005acc",
+      "source": "Core/Src/small_b5acc/FUN_08005acc.c",
+      "address": "0x08005acc",
+      "size": 216,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "260028e9535cb3c90444aad1584a7133a39f2888e5840bce59734685301ee2ae"
+    },
+    {
+      "name": "FUN_08003538",
+      "source": "Core/Src/small_m3538/FUN_08003538.c",
+      "address": "0x08003538",
+      "size": 688,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-asynchronous-unwind-tables",
+        "-fno-unwind-tables"
+      ],
+      "defsyms": {
+        "FUN_08002d5c": "0x08002d5d",
+        "FUN_08002f1c": "0x08002f1d",
+        "FUN_0800476c": "0x0800476d",
+        "FUN_08002ecc": "0x08002ecd"
+      },
+      "sha256": "1eef61fd972b60b58a379ac43b76353eb8fbf50cc6b8fa8c08a7f90e2e5ced06"
+    },
+    {
+      "name": "FUN_08008974",
+      "source": "Core/Src/small_m8974/FUN_08008974.c",
+      "address": "0x08008974",
+      "size": 632,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "24a5389a606e11ecd0e3914cc715b1955cfa506eb4f8cc6a3d333175c9a68729"
+    },
+    {
+      "name": "FUN_08006fa4",
+      "source": "Core/Src/small_n6fa4/FUN_08006fa4.c",
+      "address": "0x08006fa4",
+      "size": 660,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "28f9877684e9e60e3e5a3172b5aef741592e3ccf7068ab8d324ecf338e38e5db"
+    },
+    {
+      "name": "FUN_08003308",
+      "source": "Core/Src/small_p3308/FUN_08003308.c",
+      "address": "0x08003308",
+      "size": 456,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {
+        "FUN_08002d5c": "0x08002d5d",
+        "FUN_08002f1c": "0x08002f1d",
+        "FUN_0800476c": "0x0800476d",
+        "FUN_08002ecc": "0x08002ecd"
+      },
+      "sha256": "2112cc6014fceb91accab401210286df6a6ad165ab08e86da2fd4a2ca08bf922"
+    },
+    {
+      "name": "FUN_08007a36",
+      "source": "Core/Src/small_q2/fun_7a36.c",
+      "address": "0x08007a36",
+      "size": 314,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "3bda649ae0c7bcfd274b9b4712dcd7d6c99fcc8c567341e3d3ca0627a107e97a"
+    },
+    {
+      "name": "FUN_080081e8",
+      "source": "Core/Src/small_q2/fun_81e8.c",
+      "address": "0x080081e8",
+      "size": 328,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {
+        "REG": "0x20000000"
+      },
+      "sha256": "e5194833f10730fb02e117d5bf5d33924f4b68b5107f631472b77d6402778e73"
+    },
+    {
+      "name": "FUN_08006700",
+      "source": "Core/Src/small_g6700/FUN_08006700.c",
+      "address": "0x08006700",
+      "size": 472,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "aa777f2d1ea4d4c9d80f995f8b5a74267d50990ee089e79b987813dcc949c51e"
+    },
+    {
+      "name": "FUN_080093d6",
+      "source": "Core/Src/small_m93d6/fun_080093d6.c",
+      "address": "0x080093d6",
+      "size": 670,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {
+        "FUN_08009688": "0x08009689",
+        "FUN_08009674": "0x08009675",
+        "FUN_0800969c": "0x0800969d",
+        "FUN_080021d0": "0x080021d1",
+        "FUN_0800996c": "0x0800996d",
+        "FUN_08009980": "0x08009981",
+        "FUN_080096b0": "0x080096b1",
+        "FUN_08009958": "0x08009959",
+        "FUN_08009994": "0x08009995",
+        "FUN_080099a8": "0x080099a9",
+        "FUN_080099bc": "0x080099bd",
+        "FUN_080099d0": "0x080099d1"
+      },
+      "sha256": "eecc80b61f6d3623a75c1714c9dee6b6b6e904cf2fa6aee5405739c3498c6c1f"
+    },
+    {
+      "name": "FUN_08004b24",
+      "source": "Core/Src/small_n4b24/FUN_08004b24.c",
+      "address": "0x08004b24",
+      "size": 528,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {
+        "FUN_080049d6": "0x080049d6|1",
+        "FUN_08004956": "0x08004956|1"
+      },
+      "sha256": "4958e7858cba776cc68592e0331abd70ea1d41d8ae81c4c254ae672efdb1c6b7"
+    },
+    {
+      "name": "FUN_08008350",
+      "source": "Core/Src/small_l8350/FUN_08008350.c",
+      "address": "0x08008350",
+      "size": 1572,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {
+        "FUN_08002980": "0x08002981",
+        "FUN_08002a18": "0x08002a19",
+        "VAR_B": "0x20000004"
+      },
+      "sha256": "2ce35569d0045760de1557c094ea711f094f25fe0d3f9a166f13b8848176fe45"
+    },
+    {
+      "name": "FUN_080045f4",
+      "source": "Core/Src/work/FUN_080045f4.c",
+      "address": "0x080045f4",
+      "size": 376,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {
+        "FUN_08002f1c": "0x08002f1d",
+        "FUN_08002f6a": "0x08002f6b",
+        "FUN_08002ea6": "0x08002ea7",
+        "FUN_08002ef4": "0x08002ef5",
+        "FUN_08002f42": "0x08002f43",
+        "FUN_08002a18": "0x08002a19"
+      },
+      "sha256": "adfcb0aa11faf65c02062520de547819f08f87e697d474d950ccc6b49ab77c1b"
+    },
+    {
+      "name": "FUN_080068d8",
+      "source": "Core/Src/work/FUN_080068d8.c",
+      "address": "0x080068d8",
+      "size": 496,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "129f409fdaaf4bdab8c86ca8e152646a15726b65033c9cbf8061d37141f6046e"
+    },
+    {
+      "name": "FUN_08002298",
+      "source": "Core/Src/small_r3/FUN_08002298.c",
+      "address": "0x08002298",
+      "size": 364,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {
+        "hr_counter": "0x20000340",
+        "FUN_080099e4": "0x080099e5",
+        "FUN_08008d3c": "0x08008d3d",
+        "FUN_08002244": "0x08002245",
+        "FUN_08004eea": "0x08004eeb",
+        "FUN_08004f1e": "0x08004f1f",
+        "FUN_08005c9c": "0x08005c9d"
+      },
+      "sha256": "3542ea3e98701290d06c223ae58c261c1fcb72e2295a8aff6d7fe3be04c116b3"
+    },
+    {
+      "name": "FUN_0800810c",
+      "source": "Core/Src/small_r3/FUN_0800810c.c",
+      "address": "0x0800810c",
+      "size": 220,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "4e3711ce41078eabdb258bd489529e1517f08926d42a654d6386767e5978d577"
+    },
+    {
+      "name": "FUN_080049fc",
+      "source": "Core/Src/small_r3/FUN_080049fc.c",
+      "address": "0x080049fc",
+      "size": 196,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {
+        "FUN_08004898": "0x08004899",
+        "FUN_0800497c": "0x0800497d",
+        "FUN_080049ae": "0x080049af"
+      },
+      "sha256": "f459ba81ea82695fb31077bb08ba1c46bb7d4023ab90766787cf6185566e56ff"
+    },
+    {
+      "name": "FUN_08000a98",
+      "source": "Core/Src/small_l0a98/FUN_08000a98.c",
+      "address": "0x08000a98",
+      "size": 2856,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {
+        "FUN_0800294e": "0x0800294f",
+        "FUN_080015c0": "0x080015c1",
+        "FUN_08001e6c": "0x08001e6d",
+        "FUN_08001748": "0x08001749",
+        "FUN_080018cc": "0x080018cd",
+        "FUN_08001814": "0x08001815",
+        "FUN_08001654": "0x08001655",
+        "FUN_08001df8": "0x08001df9",
+        "FUN_08002a30": "0x08002a31",
+        "FUN_08006ac8": "0x08006ac9",
+        "FUN_080049fc": "0x080049fd",
+        "FUN_080052bc": "0x080052bd",
+        "FUN_080055c8": "0x080055c9",
+        "FUN_080020b4": "0x080020b5",
+        "FUN_0800215c": "0x0800215d",
+        "FUN_08005fa0": "0x08005fa1",
+        "FUN_08005fd0": "0x08005fd1",
+        "FUN_08009288": "0x08009289",
+        "FUN_08009378": "0x08009379",
+        "FUN_08003308": "0x08003309",
+        "FUN_0800385e": "0x0800385f",
+        "FUN_080034d0": "0x080034d1",
+        "FUN_080037e8": "0x080037e9",
+        "FUN_08001ff0": "0x08001ff1",
+        "FUN_080004bc": "0x080004bd",
+        "FUN_080004e0": "0x080004e1",
+        "FUN_08000590": "0x08000591",
+        "FUN_08000224": "0x08000225",
+        "FUN_08000220": "0x08000221",
+        "FUN_080007e4": "0x080007e5",
+        "FUN_080009f4": "0x080009f5",
+        "FUN_080009b4": "0x080009b5",
+        "ST": "0x20000324",
+        "STU": "0x20000324",
+        "MSG": "0x2000032c",
+        "Q": "0x200002c8",
+        "OUT": "0x20000330",
+        "F0": "0x200002d0",
+        "FLAG": "0x2000033e",
+        "SHI": "0x20000334",
+        "SLO": "0x20000336",
+        "SW1": "0x2000033a",
+        "SW2": "0x2000033c",
+        "SW3": "0x20000338",
+        "PW1": "0x200002b2",
+        "PW2": "0x200002b4",
+        "PW3": "0x200002ae",
+        "PW4": "0x200002b0",
+        "PW5": "0x200002ac",
+        "FW1": "0x200002c0",
+        "FW1U": "0x200002c0",
+        "FW2": "0x200002c4",
+        "FW2U": "0x200002c4",
+        "FW3": "0x200002b8",
+        "FW3U": "0x200002b8",
+        "FW4": "0x200002bc"
+      },
+      "sha256": "2cb12d60ccd1acbb2ef33ad0489f165741d2aa95883869fd952647f8afd2456e"
+    },
+    {
+      "name": "FUN_08007238",
+      "source": "Core/Src/small_7238_trial/candidate.c",
+      "address": "0x08007238",
+      "size": 282,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {
+        "FUN_08007a36": "0x08007a37",
+        "FUN_08007b70": "0x08007b71",
+        "FUN_0800810c": "0x0800810d"
+      },
+      "sha256": "3afc0c7f45f0aa9b2efebbb051b8c166c6efcd4be306e5c367b5db58a9660038"
+    },
+    {
+      "name": "FUN_080079b6",
+      "source": "Core/Src/small_aq/struct_rows.c",
+      "address": "0x080079b6",
+      "size": 128,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "5fff4dce44fcc03404b197f638637b4c00d82d24dd4ed098cd7c51f7b53513cf"
+    },
+    {
+      "name": "FUN_080073b8",
+      "source": "Core/Src/small_ai/FUN_080073b8_row.c",
+      "address": "0x080073b8",
+      "size": 256,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "da1aa42657ef7f4b295a4f46796784f38367c9aa579853e6cf58b9411517886b"
+    },
+    {
+      "name": "FUN_08002f90",
+      "source": "Core/Src/small_k2f90/FUN_08002f90.c",
+      "address": "0x08002f90",
+      "size": 888,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {
+        "CLK": "0x20000000",
+        "FUN_08002298": "0x08002299",
+        "FUN_08002a74": "0x08002a75",
+        "FUN_08002d94": "0x08002d95",
+        "FUN_08002db8": "0x08002db9",
+        "FUN_08002de0": "0x08002de1",
+        "FUN_08002e08": "0x08002e09",
+        "FUN_08002e80": "0x08002e81",
+        "FUN_08002f1c": "0x08002f1d",
+        "FUN_08002f6a": "0x08002f6b"
+      },
+      "sha256": "c16ddd497cd41e56fc93cc84751b77d9b5a36ce896caa8a96401f51398c2509a"
+    },
+    {
+      "name": "FUN_080074b8",
+      "source": "Core/Src/small_m74b8/typed_rows.c",
+      "address": "0x080074b8",
+      "size": 732,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "8be931ea959af62430c8ffc7df1b7a1ab79b1d688b64ba62a4c4ca5970f8ca50"
+    },
+    {
+      "name": "FUN_08007b70",
+      "source": "Core/Src/small_typed7b70/candidate.c",
+      "address": "0x08007b70",
+      "size": 780,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "69b0721d9395bf166f22b4266fc79f3f59492994b0d8e4c43a8173785d6e0a9d"
+    },
+    {
+      "name": "FUN_08007f3c",
+      "source": "Core/Src/small_g7f3c/match.c",
+      "address": "0x08007f3c",
+      "size": 464,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "81ae7f59b13210648b0378588bfec0d5bd34683e0bc80f8af9bedc47bdfcaffd"
+    },
+    {
+      "name": "FUN_08006004",
+      "source": "Core/Src/scratch_g6004_trial/candidate.c",
+      "address": "0x08006004",
+      "size": 416,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {
+        "FUN_080024c8": "0x080024c9"
+      },
+      "sha256": "e28c1db478006f0d48e0c0e3a21f759ce2f558a566409ab849943bba8dd53a69"
+    },
+    {
+      "name": "FUN_0800476c",
+      "source": "Core/Src/small_r476c/v4.c",
+      "address": "0x0800476c",
+      "size": 300,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {
+        "FUN_08002e80": "0x08002e81",
+        "FUN_08002e30": "0x08002e31",
+        "FUN_08002ac0": "0x08002ac1",
+        "FUN_08002a18": "0x08002a19",
+        "CLK": "0x20000000"
+      },
+      "sha256": "5d2392d54c93e1af70b7a849dda309c7d6112ada1436d864df37408633500c7c"
+    },
+    {
+      "name": "FUN_08005ba4",
+      "source": "Core/Src/small_r6/FUN_08005ba4.c",
+      "address": "0x08005ba4",
+      "size": 248,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {
+        "TBL_08009a64": "0x08009a64"
+      },
+      "sha256": "f4882888a94fc9b50f3b4527bdafdfa4e6f3bd1743eb514df9024c991d1b0b6c"
+    },
+    {
+      "name": "FUN_08007e7c",
+      "source": "Core/Src/small_r6/v7e7c_exact.c",
+      "address": "0x08007e7c",
+      "size": 192,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "903b85c743b9882bb58e64152a9f5bb4863b1bde29a374a56c0557fb1e13430d"
+    },
+    {
+      "name": "FUN_0800982c",
+      "source": "Core/Src/small_r6/FUN_0800982c.c",
+      "address": "0x0800982c",
+      "size": 300,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "a4dbefed4ed22481c0058863a67e1a27718f38b4b3f2e7b68aff0a9571dfb64e"
+    },
+    {
+      "name": "FUN_08005394",
+      "source": "Core/Src/small_p5394/FUN_08005394.c",
+      "address": "0x08005394",
+      "size": 528,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {
+        "DAT_08009a64": "0x08009a64"
+      },
+      "sha256": "ee465f308942127e961c90ae6b721eacac82827be5aa833022662e17aeb9d5f4"
+    },
+    {
+      "name": "FUN_08005794",
+      "source": "Core/Src/small_5794/FUN_08005794.c",
+      "address": "0x08005794",
+      "size": 614,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {
+        "FUN_08005a8e": "0x08005a8f",
+        "FUN_08005a50": "0x08005a51",
+        "FUN_080059fa": "0x080059fb",
+        "FUN_08001fbc": "0x08001fbd",
+        "FUN_08005a10": "0x08005a11",
+        "FUN_08005a26": "0x08005a27",
+        "FUN_08005a3a": "0x08005a3b",
+        "FUN_08005a66": "0x08005a67",
+        "FUN_08005a7a": "0x08005a7b",
+        "FUN_08005ab6": "0x08005ab7",
+        "FUN_08005aa2": "0x08005aa3"
+      },
+      "sha256": "f2403d48dc40de2b9b18c007ab634f880904acb7bd9cb11023a0deeac008412c"
+    },
+    {
+      "name": "FUN_08004e28",
+      "source": "Core/Src/small_as/v7.c",
+      "address": "0x08004e28",
+      "size": 102,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "63325a12846609e34e7bfc17079c1f5e9c3b8a6e9c29bb6351a3ec00e5b4092d"
+    },
+    {
+      "name": "FUN_080015c0",
+      "source": "Core/Src/small_b15c0/FUN_080015c0.c",
+      "address": "0x080015c0",
+      "size": 146,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fwrapv"
+      ],
+      "defsyms": {},
+      "sha256": "764447fedd453ba0f5175b12f13867f882e36ec8f3abfa41633ffb913e214419"
+    },
+    {
+      "name": "FUN_08001814",
+      "source": "Core/Src/small_b1814/FUN_08001814.c",
+      "address": "0x08001814",
+      "size": 184,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "cb38ed5bcf0999cd402eebca159a65c2c7488258b9c44a698ee245ffecf7c748"
+    },
+    {
+      "name": "FUN_080062bc",
+      "source": "Core/Src/small_av/FUN_080062bc.c",
+      "address": "0x080062bc",
+      "size": 80,
+      "flags": [
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-O0",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffunction-sections"
+      ],
+      "defsyms": {},
+      "sha256": "5fee81ba72ed8db98c79b1af0f27d15a7dc178891a030efeb8b58312110c062f"
+    },
+    {
+      "name": "FUN_0800530c",
+      "source": "Core/Src/small_ay/FUN_0800530c.c",
+      "address": "0x0800530c",
+      "size": 136,
+      "flags": [
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-O0",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffunction-sections"
+      ],
+      "defsyms": {},
+      "sha256": "cce7e18a31ac54537e0e28b5b5d8567748220284b1750be236efc3c092799e49"
+    },
+    {
+      "name": "FUN_080052bc",
+      "source": "Core/Src/small_x/FUN_080052bc.c",
+      "address": "0x080052bc",
+      "size": 80,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-fno-pic",
+        "-fno-pie",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables",
+        "-fno-stack-protector",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "0e0df7283b03f1fd2f23c78c2c50ccfaa35df4ffc00ac3ddf40052141cdbeb92"
+    },
+    {
+      "name": "FUN_08005208",
+      "source": "Core/Src/small_x/FUN_08005208.c",
+      "address": "0x08005208",
+      "size": 180,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-asynchronous-unwind-tables",
+        "-fno-unwind-tables"
+      ],
+      "defsyms": {},
+      "sha256": "d3ab02d2a4b20400ede2f74885bf29809721aaf22709466f707d6ab0e9e2fd43"
+    },
+    {
+      "name": "FUN_08007352",
+      "source": "Core/Src/small_r/FUN_08007352.c",
+      "address": "0x08007352",
+      "size": 102,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Werror"
+      ],
+      "defsyms": {},
+      "sha256": "46851b75bf70af3d3c8e8242253ebb76ec5fac3d8cb780d2dbc36d1f3385fb52"
+    },
+    {
+      "name": "FUN_0800668c",
+      "source": "Core/Src/small_ac/FUN_0800668c.c",
+      "address": "0x0800668c",
+      "size": 114,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Werror"
+      ],
+      "defsyms": {},
+      "sha256": "3e192a42236642066f19dbc3060f6b846953de04865f81ed59e2c79807a21e6c"
+    },
+    {
+      "name": "FUN_08006ac8",
+      "source": "Core/Src/small_ag/FUN_08006ac8.c",
+      "address": "0x08006ac8",
+      "size": 260,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Werror"
+      ],
+      "defsyms": {},
+      "sha256": "f11140bdec18f2403938988724a1446210871c1687b4e9165be0dfc3453acd7b"
+    },
+    {
+      "name": "FUN_08001df8",
+      "source": "Core/Src/small_al/FUN_08001df8.c",
+      "address": "0x08001df8",
+      "size": 116,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Werror"
+      ],
+      "defsyms": {},
+      "sha256": "aa2a70d85ee8cc4f41732fe5c06a584120b039f4c7dbf8666a6e03d6244f4f2c"
+    },
+    {
+      "name": "FUN_08008d3c",
+      "source": "Core/Src/small_d8d3c/v1.c",
+      "address": "0x08008d3c",
+      "size": 1180,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "167d8f4fda5f2f94c401e885625e6a3e47b76d61d7b390f64d893d29e81c9d01"
+    },
+    {
+      "name": "FUN_080061a4",
+      "source": "Core/Src/small_y/FUN_080061a4.c",
+      "address": "0x080061a4",
+      "size": 176,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables",
+        "-fno-align-labels",
+        "-fno-align-loops",
+        "-fno-align-jumps"
+      ],
+      "defsyms": {},
+      "sha256": "d0ce90c29ff1c2dc9c18749e3eb972d26a3f90d2c94287963f2fd1bf967f34f2"
+    },
+    {
+      "name": "FUN_08006254",
+      "source": "Core/Src/small_y/poll_ready.c",
+      "address": "0x08006254",
+      "size": 104,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables",
+        "-fno-align-labels",
+        "-fno-align-loops",
+        "-fno-align-jumps"
+      ],
+      "defsyms": {},
+      "sha256": "f493068d3ffd37e2bbb1e866da88ad492300130f7ed611e6f288ef87a8579451"
+    },
+    {
+      "name": "FUN_08004e90",
+      "source": "Core/Src/small_o/systick_config.c",
+      "address": "0x08004e90",
+      "size": 68,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin"
+      ],
+      "defsyms": {},
+      "sha256": "e03f60a5908f8441d977dae96bb53c0c6f72293bac8a79e30cafae5b1316824b"
+    },
+    {
+      "name": "FUN_080077f6",
+      "source": "Core/Src/small_o/set_bus_request.c",
+      "address": "0x080077f6",
+      "size": 90,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin"
+      ],
+      "defsyms": {},
+      "sha256": "6aac9bfd2ef232fe04d14b6e8cabbb424936f0663b31f920783af483a2f1e36c"
+    },
+    {
+      "name": "FUN_08007850",
+      "source": "Core/Src/small_o/set_dac_request.c",
+      "address": "0x08007850",
+      "size": 90,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin"
+      ],
+      "defsyms": {},
+      "sha256": "06d49bf886e792f0a1db3e828c5e6f4944a5f93459f81d23646b78b790d20666"
+    },
+    {
+      "name": "FUN_080078aa",
+      "source": "Core/Src/small_o/bit_register_helpers.c",
+      "address": "0x080078aa",
+      "size": 86,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin"
+      ],
+      "defsyms": {},
+      "sha256": "300cc5e9dde4a010804dda0e1f7ee23b4da248b94824b04c6b1053cd4525ff5b"
+    },
+    {
+      "name": "FUN_08007900",
+      "source": "Core/Src/small_o/bit_register_helpers.c",
+      "address": "0x08007900",
+      "size": 88,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin"
+      ],
+      "defsyms": {},
+      "sha256": "feb6e45393b05126fb79be22ddf053c33e5cb5d562226f9344edf3898b70c4eb"
+    },
+    {
+      "name": "FUN_08007958",
+      "source": "Core/Src/small_o/gpio_config.c",
+      "address": "0x08007958",
+      "size": 94,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin"
+      ],
+      "defsyms": {},
+      "sha256": "b3b64613f6c67b884db55165fb511545ecc0976f41a769504b2ccbfab87d4798"
+    },
+    {
+      "name": "FUN_08004f54",
+      "source": "Core/Src/small_d4f54/v1.c",
+      "address": "0x08004f54",
+      "size": 692,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-asynchronous-unwind-tables",
+        "-fno-unwind-tables"
+      ],
+      "defsyms": {
+        "FUN_08002404": "0x08002405",
+        "FUN_08002a18": "0x08002a19",
+        "FUN_08005acc": "0x08005acd"
+      },
+      "sha256": "f4108f0d16393cafd86c56f4c2b96587cd3fd53ade8d0e4e8168963f37ac6f6c"
+    },
+    {
+      "name": "FUN_08001fbc",
+      "source": "Core/Src/application/receive.c",
+      "address": "0x08001fbc",
+      "size": 52,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "f5ee953bbcf5231eeb59221c336996b7ac42b23e4bf8d25b979e4845aaf9e711"
+    },
+    {
+      "name": "FUN_080020b4",
+      "source": "Core/Src/application/dac_reset.c",
+      "address": "0x080020b4",
+      "size": 168,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "0b3845ec5af7a31cb4bdde1ac20cb787d26e760265c6196a2c432d49f2bc8203"
+    },
+    {
+      "name": "FUN_0800215c",
+      "source": "Core/Src/application/transmit.c",
+      "address": "0x0800215c",
+      "size": 116,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "0cd4e8a1b6a0c5743a2d9597f1080f71b40d3e5150dc5aa7686d0becbeb2446a"
+    },
+    {
+      "name": "FUN_080021d0",
+      "source": "Core/Src/application/timer_callback.c",
+      "address": "0x080021d0",
+      "size": 116,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "d2d4ef6cd55acdda37ac670da0f438fd9b7110057c9881d718e3e83aad1e65b4"
+    },
+    {
+      "name": "FUN_08002250",
+      "source": "Core/Src/application/clock_enable.c",
+      "address": "0x08002250",
+      "size": 72,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "cf702c98b37c2800554f3cb07173cfc89556f936e5fc15d268a77cf1f24f00b4"
+    },
+    {
+      "name": "FUN_080024c8",
+      "source": "Core/Src/application/peripheral_clock_msp.c",
+      "address": "0x080024c8",
+      "size": 136,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "5f575da6bf0ade04296d70dae61998ee9e582c0654eeee05e998208125d03e08"
+    },
+    {
+      "name": "FUN_08002550",
+      "source": "Core/Src/application/peripheral_pins_msp.c",
+      "address": "0x08002550",
+      "size": 144,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "85164ed43ab0c9da8a0bf8beb036d111c8ec59d91ffe50e7719e1941a7e042d2"
+    },
+    {
+      "name": "FUN_080025e0",
+      "source": "Core/Src/application/timer_msp.c",
+      "address": "0x080025e0",
+      "size": 76,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "7c64a9ac3faaf448261a754ae80868d944d0082761382d24e7fe46aa48903849"
+    },
+    {
+      "name": "FUN_0800262c",
+      "source": "Core/Src/application/adc_read.c",
+      "address": "0x0800262c",
+      "size": 26,
+      "flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": {},
+      "sha256": "2fa9ccf3b3dcd35e3e562224fec88a35d4b96a833278ae84378ea0c59eb9f70a"
+    },
+    {
+      "name": "IRQ_18",
+      "source": "Core/Src/control/control.c",
+      "address": "0x080026a4",
+      "size": 524,
+      "flags": [
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-O0",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffunction-sections",
+        "-fwrapv",
+        "-Wall",
+        "-Wextra",
+        "-Werror"
+      ],
+      "defsyms": {},
+      "sha256": "091fb9d0fb42fe863075b604d0dd2f80428df63cd65b909a6f21c684e72d200c"
+    }
+  ],
+  "assembly_entry": {
+    "name": "FUN_08003d74",
+    "source": "Core/Src/assembly/HAL_ADC_ConfigChannel.S",
+    "address": "0x8003d74",
+    "size": 2176,
+    "defsyms": {
+      "FUN_08002a9a": "0x8002a9b",
+      "FUN_08002ac0": "0x8002ac1",
+      "FUN_08002adc": "0x8002add",
+      "FUN_08002b24": "0x8002b25",
+      "FUN_08002b50": "0x8002b51",
+      "FUN_08002b86": "0x8002b87",
+      "FUN_08002bbc": "0x8002bbd",
+      "FUN_08002bf2": "0x8002bf3",
+      "FUN_08002c3e": "0x8002c3f",
+      "FUN_08002cbc": "0x8002cbd",
+      "FUN_08002d14": "0x8002d15",
+      "FUN_08002e80": "0x8002e81",
+      "FUN_08002f1c": "0x8002f1d",
+      "FUN_08002f6a": "0x8002f6b",
+      "SystemCoreClock": "0x20000000"
+    },
+    "sha256": "7b3a582c2659fb3e9339dd216347ef2c687ca0375a65b7c66e371ddfe3a3ece4",
+    "flags": [
+      "-mcpu=cortex-m4",
+      "-mthumb",
+      "-mfloat-abi=hard",
+      "-mfpu=fpv4-sp-d16"
+    ]
+  },
+  "reference_image_sha256": "6061eaf7d206f075f8c80e78b6ca227219004336b732e5b7c52ddcc2939d606b"
+}
