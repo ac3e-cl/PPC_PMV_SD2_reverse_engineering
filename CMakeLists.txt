@@ -1,0 +1,58 @@
+cmake_minimum_required(VERSION 3.21)
+project(PPC_PMV_SD2_reverse_engineering LANGUAGES C ASM)
+
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_STANDARD_REQUIRED ON)
+set(CMAKE_C_EXTENSIONS ON)
+
+file(READ "${CMAKE_CURRENT_SOURCE_DIR}/manifest.json" FW_MANIFEST)
+string(JSON C_ENTRY_COUNT LENGTH "${FW_MANIFEST}" c_entries)
+set(FW_C_SOURCES)
+
+# Each translation unit keeps the reconstruction flags recorded for its first
+# accepted function. The manifest's per-function flags remain authoritative for
+# exact function-level reproduction; this target is a static source library.
+foreach(INDEX RANGE 0 ${C_ENTRY_COUNT})
+  if(INDEX GREATER_EQUAL C_ENTRY_COUNT)
+    break()
+  endif()
+  string(JSON SOURCE GET "${FW_MANIFEST}" c_entries ${INDEX} source)
+  list(FIND FW_C_SOURCES "${SOURCE}" SOURCE_INDEX)
+  if(SOURCE_INDEX EQUAL -1)
+    list(APPEND FW_C_SOURCES "${SOURCE}")
+    string(JSON FLAGS_TYPE TYPE "${FW_MANIFEST}" c_entries ${INDEX} flags)
+    if(FLAGS_TYPE STREQUAL "ARRAY")
+      string(JSON FLAG_COUNT LENGTH "${FW_MANIFEST}" c_entries ${INDEX} flags)
+      set(SOURCE_FLAGS)
+      if(FLAG_COUNT GREATER 0)
+        math(EXPR LAST_FLAG "${FLAG_COUNT} - 1")
+        foreach(FLAG_INDEX RANGE 0 ${LAST_FLAG})
+          string(JSON FLAG GET "${FW_MANIFEST}" c_entries ${INDEX} flags ${FLAG_INDEX})
+          list(APPEND SOURCE_FLAGS "${FLAG}")
+        endforeach()
+      endif()
+    else()
+      string(JSON FLAGS_STRING GET "${FW_MANIFEST}" c_entries ${INDEX} flags)
+      separate_arguments(SOURCE_FLAGS NATIVE_COMMAND "${FLAGS_STRING}")
+    endif()
+    set_source_files_properties("${SOURCE}" PROPERTIES COMPILE_OPTIONS "${SOURCE_FLAGS}")
+  endif()
+endforeach()
+
+string(JSON ASM_SOURCE GET "${FW_MANIFEST}" assembly_entry source)
+string(JSON ASM_FLAG_COUNT LENGTH "${FW_MANIFEST}" assembly_entry flags)
+set(ASM_FLAGS)
+if(ASM_FLAG_COUNT GREATER 0)
+  math(EXPR LAST_ASM_FLAG "${ASM_FLAG_COUNT} - 1")
+  foreach(FLAG_INDEX RANGE 0 ${LAST_ASM_FLAG})
+    string(JSON FLAG GET "${FW_MANIFEST}" assembly_entry flags ${FLAG_INDEX})
+    list(APPEND ASM_FLAGS "${FLAG}")
+  endforeach()
+endif()
+set_source_files_properties("${ASM_SOURCE}" PROPERTIES COMPILE_OPTIONS "${ASM_FLAGS}")
+
+add_library(${PROJECT_NAME} STATIC ${FW_C_SOURCES} "${ASM_SOURCE}")
+target_include_directories(${PROJECT_NAME} PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/Core/Inc")
+set_target_properties(${PROJECT_NAME} PROPERTIES
+  OUTPUT_NAME "PPC_PMV_SD2_reverse_engineering"
+  ARCHIVE_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/lib")
