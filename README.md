@@ -26,6 +26,16 @@ cmake --build --preset Release
 
 Los presets usan `cmake/arm-none-eabi-gcc.cmake`. El toolchain se busca en `$ARM_TC`, luego `$GNU_TOOLS_FOR_STM32_COMPILER_PATH`, y como fallback en `~/.local/opt/gnu-tools-for-stm32-13.3.rel1`; también puede estar en `PATH`. Para CMake CLI se requiere CMake ≥3.21 y Ninja. La salida es `build/cmake/<preset>/lib/libPPC_PMV_SD2_reverse_engineering.a`.
 
+## Artefacto precompilado
+
+Se versiona explícitamente la biblioteca estática Release en `artifacts/Release/libPPC_PMV_SD2_reverse_engineering.a` junto a su checksum SHA-256. Se recompiló dos veces desde limpio y ambos archivos resultaron idénticos; contiene 125 miembros (124 C + 1 ASM). Comprueba el archivo con:
+
+```sh
+cd artifacts/Release && sha256sum -c libPPC_PMV_SD2_reverse_engineering.a.sha256
+```
+
+No hay `.elf` ni `.bin` porque este proyecto solo produce una biblioteca estática; no contiene startup, vectores, mapa de memoria/linker script, runtime ni datos para un firmware arrancable. No se inventaron artefactos ejecutables a partir de los fragmentos.
+
 ## Pruebas
 
 Con Python 3.10+ y GNU Tools for STM32 13.3.1:

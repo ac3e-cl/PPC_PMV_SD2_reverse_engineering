@@ -51,6 +51,10 @@ if(ASM_FLAG_COUNT GREATER 0)
 endif()
 set_source_files_properties("${ASM_SOURCE}" PROPERTIES COMPILE_OPTIONS "${ASM_FLAGS}")
 
+# Build a deterministic GNU ar archive so repeated builds can be checked by hash.
+set(CMAKE_C_ARCHIVE_CREATE "<CMAKE_AR> qcD <TARGET> <LINK_FLAGS> <OBJECTS>")
+set(CMAKE_C_ARCHIVE_FINISH "<CMAKE_RANLIB> -D <TARGET>")
+
 add_library(${PROJECT_NAME} STATIC ${FW_C_SOURCES} "${ASM_SOURCE}")
 target_include_directories(${PROJECT_NAME} PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/Core/Inc")
 set_target_properties(${PROJECT_NAME} PROPERTIES
