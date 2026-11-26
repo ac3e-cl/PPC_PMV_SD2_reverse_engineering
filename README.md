@@ -1,4 +1,4 @@
-# PPC_PMV_SD2 — proyecto STM32CubeIDE (managed Makefile)
+# PPC_PMV_SD_RE — proyecto STM32CubeIDE (managed Makefile)
 
 Proyecto convertido al mismo tipo y configuración STM32CubeIDE que `/home/isaiash/PPC_PMV_SD2`: MCU executable, builder gestionado de CubeIDE/Make, configuraciones `Debug` y `Release`, STM32G474RETx, Cortex-M4, FPv4-SP-D16 y ABI hard. La configuración CubeMX `.ioc`, startup, drivers STM32CubeG4, headers de plataforma y linker scripts se copiaron desde el proyecto base; el nombre de proyecto y las rutas de salida se ajustaron para este repositorio. El código reconstruido permanece bajo `Core/Src` y el header de registros bajo `Core/Inc`.
 
