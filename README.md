@@ -1,4 +1,4 @@
-# PPC_PMV_SD2 — proyecto de fuentes STM32G474RETx
+# PPC_PMV_SD2 —  STM32G474RETx
 
 Proyecto organizado para importar en **STM32CubeIDE** como biblioteca estática de fragmentos para el objetivo STM32G474RETx (STM32G474RET6). La estructura sigue el patrón CubeIDE (`Core/Inc`, `Core/Src`, `.project`, `.cproject`); no incluye dependencias o binarios generados innecesarios.
 
