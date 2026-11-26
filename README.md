@@ -1,44 +1,18 @@
-# PPC_PMV_SD2 — proyecto CMake para STM32CubeIDE
+# PPC_PMV_SD2 — proyecto STM32CubeIDE (managed Makefile)
 
-Proyecto CMake importable en STM32CubeIDE para STM32G474RETx (STM32G474RET6). Incluye 124 unidades C con 178 funciones aceptadas por matching y una reconstrucción legible en ensamblador de `HAL_ADC_ConfigChannel` (2.176 bytes). La función ensamblador no se contabiliza como C.
+Proyecto convertido al mismo tipo y configuración STM32CubeIDE que `/home/isaiash/PPC_PMV_SD2`: MCU executable, builder gestionado de CubeIDE/Make, configuraciones `Debug` y `Release`, STM32G474RETx, Cortex-M4, FPv4-SP-D16 y ABI hard. La configuración CubeMX `.ioc`, startup, drivers STM32CubeG4, headers de plataforma y linker scripts se copiaron desde el proyecto base; el nombre de proyecto y las rutas de salida se ajustaron para este repositorio. El código reconstruido permanece bajo `Core/Src` y el header de registros bajo `Core/Inc`.
 
-## Importar en STM32CubeIDE
+Se conservaron los fragmentos fuente: 124 unidades C con 178 funciones aceptadas por matching, más `HAL_ADC_ConfigChannel` en ensamblador legible. Esa función no se cuenta como C.
 
-Requiere **STM32CubeIDE 2.0.0 o posterior** y CMake **3.30.8 o posterior** para el flujo CMake de STM32CubeIDE (según la nota ST AN5952).
+## Abrir y compilar
 
-1. Abre `File > STM32 Project Create/Import`.
-2. Elige `Import STM32 Project` y selecciona `STM32 CMake Project`.
-3. Selecciona este repositorio como la estructura CMake existente (raíz/source directory del repositorio).
-4. Elige el toolchain MCU ARM GCC y el dispositivo STM32G474RETx; configura el preset CMake `Debug` o `Release`.
-5. Ejecuta `Build Project`. El resultado será una biblioteca estática.
+Importa el repositorio en STM32CubeIDE mediante `File > Import... > General > Existing Projects into Workspace`, seleccionando la raíz para detectar `.project`. El proyecto incluye las configuraciones `Debug` y `Release`; la configuración del dispositivo corresponde a STM32G474RETx y el `.ioc` conserva el proyecto CubeMX base.
 
-Referencia oficial ST: [AN5952 — How to use CMake in STM32CubeIDE](https://www.st.com/resource/en/application_note/an5952-how-to-use-cmake-in-stm32cubeide-stmicroelectronics.pdf).
+El `.cproject` produce un ejecutable STM32CubeIDE (`.elf`) y tiene habilitadas las salidas HEX/BIN igual que el proyecto base. **Sin embargo, el conjunto de fuentes reconstruidas de este repositorio no contiene el programa completo ni todas las unidades de aplicación requeridas para un enlace de firmware arrancable** (por ejemplo, `main` y el wiring de interrupciones/MSP de la aplicación). Por tanto, la configuración de IDE se conserva, pero no afirmo que este source set actual pueda producir un nuevo ELF/BIN válido. No agregué código de aplicación del proyecto base ni un `main()` ficticio para ocultar esa carencia.
 
-También se puede compilar desde consola con CMake y Ninja:
+## Fuentes y pruebas de matching
 
-```sh
-cmake --preset Debug
-cmake --build --preset Debug
-# o Release
-cmake --preset Release
-cmake --build --preset Release
-```
-
-Los presets usan `cmake/arm-none-eabi-gcc.cmake`. El toolchain se busca en `$ARM_TC`, luego `$GNU_TOOLS_FOR_STM32_COMPILER_PATH`, y como fallback en `~/.local/opt/gnu-tools-for-stm32-13.3.rel1`; también puede estar en `PATH`. Para CMake CLI se requiere CMake ≥3.21 y Ninja. La salida es `build/cmake/<preset>/lib/libPPC_PMV_SD2_reverse_engineering.a`.
-
-## Artefacto precompilado
-
-Se versiona explícitamente la biblioteca estática Release en `artifacts/Release/libPPC_PMV_SD2_reverse_engineering.a` junto a su checksum SHA-256. Se recompiló dos veces desde limpio y ambos archivos resultaron idénticos; contiene 125 miembros (124 C + 1 ASM). Comprueba el archivo con:
-
-```sh
-cd artifacts/Release && sha256sum -c libPPC_PMV_SD2_reverse_engineering.a.sha256
-```
-
-No se generan `.elf` ni `.bin` con el target CMake de la biblioteca. La carpeta `artifacts/Release/` incluye además el par `firmware.elf`/`firmware.bin` de la reconstrucción mixta completa verificada previamente, junto con checksums. El `.bin` coincide byte a byte con la imagen de referencia. El ELF es un contenedor ejecutable minimalista de ese mismo binario con segmento `.firmware` y entry point tomado del vector de reset; no tiene símbolos DWARF y no fue enlazado desde este repositorio porque faltan componentes de startup/runtime/datos. Detalles en `artifacts/Release/README.md`.
-
-## Pruebas
-
-Con Python 3.10+ y GNU Tools for STM32 13.3.1:
+Con Python 3.10+ y GNU Tools for STM32 13.3.1 ejecuta desde la raíz:
 
 ```sh
 python3 tests/test_sources.py
@@ -46,12 +20,17 @@ python3 tests/test_sources.py
 make test
 ```
 
-Esto compila las 124 unidades C y ensambla/enlaza `HAL_ADC_ConfigChannel` en su dirección original, verificando longitud y SHA-256 exactos de sus 2.176 bytes. La prueba C es de compilación, no de enlace ni de igualdad binaria por función; `manifest.json` conserva flags, direcciones, símbolos y hashes aceptados. No se distribuye la imagen de referencia.
+Esto compila las 124 unidades C y ensambla/enlaza `HAL_ADC_ConfigChannel` en su dirección original; se exige el tamaño y SHA-256 exactos para sus 2.176 bytes. La prueba de C es compile-only, no prueba el enlace completo ni verifica byte-matching de cada función; los flags, direcciones, símbolos y hashes aceptados están en `manifest.json`.
 
-CMake crea una biblioteca estática de los fragmentos, usando por unidad los flags de la primera entrada de esa unidad registrados en el manifiesto. Los flags por función pueden diferir dentro de una unidad; por eso el artefacto de biblioteca no se presenta como matching exacto del firmware. La prueba Python separada sigue siendo la verificación focal reproducible.
+## Artefactos precompilados
 
-## Alcance
+`artifacts/Release/` conserva la biblioteca estática generada antes del cambio de tipo de proyecto y el par `firmware.elf`/`firmware.bin` de la reconstrucción mixta completa verificada. El binario es de 39.560 bytes y coincide byte por byte con la imagen de referencia. El ELF es un contenedor ejecutable mínimo del mismo binario, con un único segmento `.firmware`, entry del vector de reset y sin símbolos DWARF. **Estos artefactos no se regeneran desde el source set actual de este proyecto**; sus procedencias y checksums están documentados en `artifacts/Release/README.md`.
 
-Este repositorio **no** es una imagen completa ni un ejecutable arrancable para flashear. No incluye startup/vector table original, linker script, runtime libgcc, todos los datos ni símbolos externos para reconstruir el enlace completo. La igualdad completa observada previamente correspondía a una imagen mixta de C, ensamblador, startup, runtime y datos; sus componentes de build/experimentales se excluyeron aquí.
+Verifica los checksums desde `artifacts/Release/`:
 
-La placa auxiliar no era la de referencia; no se validó el firmware completo en hardware ni se flasheó. No usar estos fragmentos para energizar una etapa de potencia.
+```sh
+sha256sum -c firmware.sha256
+sha256sum -c libPPC_PMV_SD2_reverse_engineering.a.sha256
+```
+
+No se validó el firmware completo en hardware ni se flasheó. La placa auxiliar no era la placa objetivo. No usar estos archivos para energizar una etapa de potencia sin revisar el hardware y el firmware de destino.

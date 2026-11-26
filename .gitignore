@@ -1,11 +1,6 @@
 Debug/
 Release/
 build/
-cmake-build-*/
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-compile_commands.json
 *.o
 *.a
 *.elf
@@ -15,4 +10,5 @@ compile_commands.json
 *.lst
 *.su
 *.cyclo
-.settings/
+.settings/*
+!.settings/language.settings.xml
