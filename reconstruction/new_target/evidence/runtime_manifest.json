@@ -1,0 +1,22 @@
+{
+  "target_sha256": "5b1f405c2a270c77de55cd59d6b3f9fa0b8e4ca1dedeb99c81eab2047841b752",
+  "base_address": "0x08000000",
+  "classification": "GNU compiler runtime objects (libgcc, crtbegin, crti/crtn; not reconstructed C)",
+  "archive_flags": [
+    "-mcpu=cortex-m4",
+    "-mthumb",
+    "-mfloat-abi=hard",
+    "-mfpu=fpv4-sp-d16"
+  ],
+  "blocks": [
+    {"name": "crtbegin.o:.text", "kind": "toolchain_object", "member": "crtbegin.o", "address": "0x080001d8", "size": 64, "expected_object_sha256": "9fe7eddbe55a5f047cebba1b2db73029c1ef02c2b5dc3b535a0077f6c270cd70", "support_sections": {"data": "0x20000000", "bss": "0x2000000c", "eh_frame": "0x0800963c"}},
+    {"name": "crt-init:.init", "kind": "toolchain_section_set", "members": ["crti.o", "crtn.o"], "section": ".init", "address": "0x0800963c", "size": 12, "expected_object_sha256": ["9b92985c00c4a09b23e776fde5f38a7f865149c19dc3162b4caf30d704f7a9a7", "35498cfe476cd813d021205ee48e0cee881b3cdd67887a592aef84f9ab9bd86f"]},
+    {"name": "crt-fini:.fini", "kind": "toolchain_section_set", "members": ["crti.o", "crtn.o"], "section": ".fini", "address": "0x08009648", "size": 12, "expected_object_sha256": ["9b92985c00c4a09b23e776fde5f38a7f865149c19dc3162b4caf30d704f7a9a7", "35498cfe476cd813d021205ee48e0cee881b3cdd67887a592aef84f9ab9bd86f"]},
+    {"name": "crtbegin.o:.init_array", "kind": "toolchain_object", "member": "crtbegin.o", "section": ".init_array", "address": "0x08009674", "size": 4, "expected_object_sha256": "9fe7eddbe55a5f047cebba1b2db73029c1ef02c2b5dc3b535a0077f6c270cd70", "support_sections": {"text": "0x080001d8", "data": "0x20000000", "bss": "0x2000000c", "eh_frame": "0x0800963c"}},
+    {"name": "crtbegin.o:.fini_array", "kind": "toolchain_object", "member": "crtbegin.o", "section": ".fini_array", "address": "0x08009678", "size": 4, "expected_object_sha256": "9fe7eddbe55a5f047cebba1b2db73029c1ef02c2b5dc3b535a0077f6c270cd70", "support_sections": {"text": "0x080001d8", "data": "0x20000000", "bss": "0x2000000c", "eh_frame": "0x0800963c"}},
+    {"name": "libgcc:_arm_addsubdf3.o:.text", "member": "_arm_addsubdf3.o", "address": "0x08000218", "size": 888},
+    {"name": "libgcc:_arm_muldivdf3.o:.text", "member": "_arm_muldivdf3.o", "address": "0x08000590", "size": 1060},
+    {"name": "libgcc:_arm_fixunsdfsi.o:.text", "member": "_arm_fixunsdfsi.o", "address": "0x080009b4", "size": 64},
+    {"name": "libgcc:_arm_truncdfsf2.o:.text", "member": "_arm_truncdfsf2.o", "address": "0x080009f4", "size": 160}
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "target_sha256": "5b1f405c2a270c77de55cd59d6b3f9fa0b8e4ca1dedeb99c81eab2047841b752",
+  "base_address": "0x08000000",
+  "classification": "C-authored vector table, constant table and initialized-data sections; not reconstructed functions or compiler runtime",
+  "blocks": [
+    {
+      "name": "STM32G474 vector table",
+      "kind": "compiled_data",
+      "address": "0x08000000",
+      "size": 472,
+      "section": ".isr_vector",
+      "source": "candidates/probes/vector_table_c/vector_table.c",
+      "source_sha256": "5a97ff869fbd516c79a50a45a9bc4b71a7663cc43ef77c1120175a700e675326",
+      "verifier": "candidates/probes/vector_table_c/verify.py",
+      "binary": "candidates/probes/vector_table_c/build/vector_table.bin",
+      "compiler_flags": [
+        "-std=gnu11",
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-pic",
+        "-fno-pie",
+        "-fdata-sections"
+      ],
+      "defsyms": [
+        "__initial_sp=0x20020000",
+        "Reset_Handler=0x08002875",
+        "NMI_Handler=0x080025d3",
+        "HardFault_Handler=0x080025db",
+        "MemManage_Handler=0x080025e3",
+        "BusFault_Handler=0x080025eb",
+        "UsageFault_Handler=0x080025f3",
+        "SVC_Handler=0x080025fb",
+        "DebugMon_Handler=0x08002609",
+        "PendSV_Handler=0x08002617",
+        "SysTick_Handler=0x08002625",
+        "IRQ_18=0x08002631",
+        "IRQ_86=0x0800283d",
+        "Default_Handler=0x080028c5"
+      ]
+    },
+    {
+      "name": "clock prescaler lookup tables",
+      "kind": "compiled_data",
+      "address": "0x08009654",
+      "size": 32,
+      "section": ".table",
+      "source": "../image_data/data.c",
+      "source_sha256": "289ce191c856a1933177e3edb29bf21440c98c885d8e605827018fdcb133353d",
+      "verifier": "candidates/probes/data_sections/verify.py",
+      "binary": "candidates/probes/data_sections/build/table.bin",
+      "compiler_flags": ["-O0", "-mcpu=cortex-m4", "-mthumb", "-mfloat-abi=hard", "-mfpu=fpv4-sp-d16", "-ffreestanding"]
+    },
+    {
+      "name": "initvals (initialized data)",
+      "kind": "compiled_data",
+      "address": "0x0800967c",
+      "size": 12,
+      "section": ".initvals",
+      "source": "../image_data/data.c",
+      "source_sha256": "289ce191c856a1933177e3edb29bf21440c98c885d8e605827018fdcb133353d",
+      "verifier": "candidates/probes/data_sections/verify.py",
+      "binary": "candidates/probes/data_sections/build/initvals.bin",
+      "compiler_flags": ["-O0", "-mcpu=cortex-m4", "-mthumb", "-mfloat-abi=hard", "-mfpu=fpv4-sp-d16", "-ffreestanding"]
+    }
+  ]
+}

@@ -10,5 +10,10 @@ build/
 *.lst
 *.su
 *.cyclo
-.settings/*
-!.settings/language.settings.xml
+__pycache__/
+*.pyc
+!/bin/PPC_PMV_SD2_reverse_engineering.bin
+reconstruction/new_target/evidence/runtime_accepted.json
+reconstruction/new_target/evidence/data_accepted.json
+reconstruction/new_target/evidence/assembly_accepted.json
+reconstruction/new_target/evidence/linker_gaps_accepted.json

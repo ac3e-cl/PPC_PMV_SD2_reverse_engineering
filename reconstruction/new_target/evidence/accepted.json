@@ -1,0 +1,3086 @@
+{
+  "target_sha256": "5b1f405c2a270c77de55cd59d6b3f9fa0b8e4ca1dedeb99c81eab2047841b752",
+  "base_address": "0x08000000",
+  "functions": [
+    {
+      "name": "FUN_08000a98",
+      "address": "0x08000a98",
+      "size": 2856,
+      "source": "candidates/reused/small_l0a98/FUN_08000a98.c",
+      "source_sha256": "2beba607147443bd87b76744e62acc1ef03d89467f1020fe6cabf4c5314e4056",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [
+        "FUN_0800294e=0x080028c7",
+        "FUN_080015c0=0x080015c1",
+        "FUN_08001e6c=0x08001e6d",
+        "FUN_08001748=0x08001749",
+        "FUN_080018cc=0x080018cd",
+        "FUN_08001814=0x08001815",
+        "FUN_08001654=0x08001655",
+        "FUN_08001df8=0x08001df9",
+        "FUN_08002a30=0x080029a9",
+        "FUN_08006ac8=0x08006a41",
+        "FUN_080049fc=0x08004975",
+        "FUN_080052bc=0x08005235",
+        "FUN_080055c8=0x08005541",
+        "FUN_080020b4=0x080020b5",
+        "FUN_0800215c=0x0800215d",
+        "FUN_08005fa0=0x08005f19",
+        "FUN_08005fd0=0x08005f49",
+        "FUN_08009288=0x08009201",
+        "FUN_08009378=0x080092f1",
+        "FUN_08003308=0x08003281",
+        "FUN_0800385e=0x080037d7",
+        "FUN_080034d0=0x08003449",
+        "FUN_080037e8=0x08003761",
+        "FUN_08001ff0=0x08001ff1",
+        "FUN_080004bc=0x080004bd",
+        "FUN_080004e0=0x080004e1",
+        "FUN_08000590=0x08000591",
+        "FUN_08000224=0x08000225",
+        "FUN_08000220=0x08000221",
+        "FUN_080007e4=0x080007e5",
+        "FUN_080009f4=0x080009f5",
+        "FUN_080009b4=0x080009b5",
+        "ST=0x20000324",
+        "STU=0x20000324",
+        "MSG=0x2000032c",
+        "Q=0x200002c8",
+        "OUT=0x20000330",
+        "F0=0x200002d0",
+        "FLAG=0x2000033e",
+        "SHI=0x20000334",
+        "SLO=0x20000336",
+        "SW1=0x2000033a",
+        "SW2=0x2000033c",
+        "SW3=0x20000338",
+        "PW1=0x200002b2",
+        "PW2=0x200002b4",
+        "PW3=0x200002ae",
+        "PW4=0x200002b0",
+        "PW5=0x200002ac",
+        "FW1=0x200002c0",
+        "FW1U=0x200002c0",
+        "FW2=0x200002c4",
+        "FW2U=0x200002c4",
+        "FW3=0x200002b8",
+        "FW3U=0x200002b8",
+        "FW4=0x200002bc",
+        "FW4U=0x200002bc"
+      ],
+      "configuration": "GNU Tools for STM32 13.3.rel1; -O0 fragment verification (not a full CubeIDE 1.12.0 build)"
+    },
+    {
+      "name": "FUN_080015c0",
+      "address": "0x080015c0",
+      "size": 146,
+      "source": "candidates/reused/small_b15c0/FUN_080015c0.c",
+      "source_sha256": "6a5baff86cb9eb932ef3d22c74d258a4c599cbfcc3cabeb194e5c69b0ffb4ec9",
+      "compiler_flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fwrapv"
+      ],
+      "defsyms": [
+        "FUN_08002244=0x080021d1",
+        "FUN_080081e8=0x08008161",
+        "FUN_08008350=0x080082c9",
+        "FUN_08008974=0x080088ed",
+        "FUN_080099e4=0x080095e5"
+      ],
+      "configuration": "GNU Tools for STM32 13.3.rel1; -O0 fragment verification (not a full CubeIDE 1.12.0 build)"
+    },
+    {
+      "name": "FUN_08001654",
+      "address": "0x08001654",
+      "size": 244,
+      "source": "candidates/reused/small_b1654/FUN_08001654.c",
+      "source_sha256": "077d4bf86fe5914abafa302ede42c84194a626dc2225efc776ca97ed471bb13b",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [
+        "REQ_BLOCK=0x20000028",
+        "FUN_080099e4=0x080095e5",
+        "FUN_08002f90=0x08002f09",
+        "FUN_08004b24=0x08004a9d",
+        "FUN_08003d74=0x08003ced",
+        "FUN_08002244=0x080021d1"
+      ],
+      "configuration": "GNU Tools for STM32 13.3.rel1; -O0 fragment verification (not a full CubeIDE 1.12.0 build)"
+    },
+    {
+      "name": "FUN_08001748",
+      "address": "0x08001748",
+      "size": 204,
+      "source": "candidates/reused/small_1748/FUN_08001748.c",
+      "source_sha256": "336887eca4c054ba965ddee1f7f1f21f65091b4a422a5b1be6c6393f21217d95",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [
+        "ADC2_HANDLE=0x20000094",
+        "FUN_08002f90=0x08002f09",
+        "FUN_08003d74=0x08003ced",
+        "FUN_08002244=0x080021d1",
+        "memset=0x080095e5"
+      ],
+      "configuration": "GNU Tools for STM32 13.3.rel1; -O0 fragment verification (not a full CubeIDE 1.12.0 build)"
+    },
+    {
+      "name": "FUN_08001814",
+      "address": "0x08001814",
+      "size": 184,
+      "source": "candidates/reused/small_b1814/FUN_08001814.c",
+      "source_sha256": "15f57884080e54e77385368d934181e83e2a7abcfc6523d9a30f5bc4840eb15a",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [
+        "DAC_INIT_CFG=0x20000100",
+        "FUN_08004f54=0x08004ecd",
+        "FUN_08002244=0x080021d1",
+        "FUN_08005208=0x08005181"
+      ],
+      "configuration": "GNU Tools for STM32 13.3.rel1; -O0 fragment verification (not a full CubeIDE 1.12.0 build)"
+    },
+    {
+      "name": "FUN_080018cc",
+      "address": "0x080018cc",
+      "size": 1324,
+      "source": "candidates/reused/small_h18cc/FUN_080018cc.c",
+      "source_sha256": "4d3b9039bfcfb18ce09e851e13c45a76a8119c6896433fda7f157b27e6e1985c",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [
+        "HRTIM_CTL=0x20000164",
+        "FUN_08002244=0x080021d1",
+        "FUN_08002550=0x080024dd",
+        "FUN_08006004=0x08005f7d",
+        "FUN_080061a4=0x0800611d",
+        "FUN_08006254=0x080061cd",
+        "FUN_080062bc=0x08006235",
+        "FUN_0800630c=0x08006285",
+        "FUN_0800668c=0x08006605",
+        "FUN_08006700=0x08006679",
+        "FUN_080068d8=0x08006851",
+        "FUN_08006ac8=0x08006a41",
+        "FUN_08006bcc=0x08006b45",
+        "FUN_08006fa4=0x08006f1d",
+        "FUN_08007238=0x080071b1",
+        "FUN_08007352=0x080072cb",
+        "FUN_080073b8=0x08007331",
+        "FUN_080074b8=0x08007431",
+        "FUN_08007794=0x0800770d",
+        "memset=0x080095e5"
+      ],
+      "configuration": "GNU Tools for STM32 13.3.rel1; -O0 fragment verification (not a full CubeIDE 1.12.0 build)"
+    },
+    {
+      "name": "FUN_08001df8",
+      "address": "0x08001df8",
+      "size": 116,
+      "source": "candidates/reused/small_al/FUN_08001df8.c",
+      "source_sha256": "b37e5a44c23cfae13427c3cdf6452dab87fe895137dde9d13fddb1e032d04efc",
+      "compiler_flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Werror"
+      ],
+      "defsyms": [
+        "FUN_08002244=0x080021d1",
+        "FUN_080091d8=0x08009151",
+        "FUN_0800982c=0x080094b9",
+        "GLOBAL_STATE=0x20000260"
+      ],
+      "configuration": "GNU Tools for STM32 13.3.rel1; -O0 fragment verification (not a full CubeIDE 1.12.0 build)"
+    },
+    {
+      "name": "FUN_08001e6c",
+      "address": "0x08001e6c",
+      "size": 336,
+      "source": "candidates/reused/small_j1e6c/FUN_08001e6c.c",
+      "source_sha256": "e8546c84be26b58a36b5b5bb50b496b1da7d2da2abe3bd105ad447f3c40a75a2",
+      "compiler_flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": [
+        "FUN_08005fa0=0x08005f19",
+        "FUN_08005c9c=0x08005c15"
+      ],
+      "configuration": "GNU Tools for STM32 13.3.rel1; -O0 fragment verification (not a full CubeIDE 1.12.0 build)"
+    },
+    {
+      "name": "FUN_08001fbc",
+      "address": "0x08001fbc",
+      "size": 52,
+      "source": "candidates/reused/application/receive.c",
+      "source_sha256": "92280b62961827624b820f27677b1716be5adbdcd221c55b9d06432789e2fb65",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [
+        "FUN_08005394=0x0800530d",
+        "receive_data=0x200002c8",
+        "receive_header=0x200002d8",
+        "received_identifier=0x2000032c"
+      ],
+      "configuration": "GNU Tools for STM32 13.3.rel1; -O0 fragment verification (not a full CubeIDE 1.12.0 build)"
+    },
+    {
+      "name": "FUN_08001ff0",
+      "address": "0x08001ff0",
+      "size": 196,
+      "source": "candidates/reused/small_1ff0/FUN_08001ff0.c",
+      "source_sha256": "51e21d3efec2807f803262c481ce75810a3bf826d3751e420aad4ed38b7c5077",
+      "compiler_flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": [
+        "BASE_48000400=0x48000400",
+        "BASE_48000800=0x48000800",
+        "BASE_48000C00=0x48000c00",
+        "PARAM_BLOCK=0x20000164",
+        "HANDLE_A=0x20000094",
+        "HANDLE_B=0x20000028",
+        "FUN_08005fa0=0x08005f19",
+        "FUN_08002a30=0x080029a9",
+        "FUN_080077f6=0x0800776f",
+        "FUN_080078aa=0x08007823",
+        "FUN_08002f90=0x08002f09",
+        "FUN_08002244=0x080021d1",
+        "FUN_08003538=0x080034b1"
+      ],
+      "configuration": "GNU Tools for STM32 13.3.rel1; -O0 fragment verification (not a full CubeIDE 1.12.0 build)"
+    },
+    {
+      "name": "FUN_080020b4",
+      "address": "0x080020b4",
+      "size": 168,
+      "source": "candidates/reused/application/dac_reset.c",
+      "source_sha256": "b90daf10353c0cbb4186584b5483394008cb249eeb9978c71f1fbb3737b2e501",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [
+        "dac_handle=0x20000164",
+        "FUN_08005fa0=0x08005f19",
+        "FUN_08007850=0x080077c9",
+        "FUN_08007900=0x08007879",
+        "sample_dac_first=0x200002b4",
+        "sample_dac_second=0x200002ae",
+        "sample_dac_third=0x200002b0"
+      ],
+      "configuration": "GNU Tools for STM32 13.3.rel1; -O0 fragment verification (not a full CubeIDE 1.12.0 build)"
+    },
+    {
+      "name": "FUN_0800215c",
+      "address": "0x0800215c",
+      "size": 116,
+      "source": "candidates/reused/application/transmit.c",
+      "source_sha256": "907bc179beb61a69005552c01b0f6f9eb6cd4ecb587fb840d25cd85ef46aaa19",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [
+        "can_handle=0x20000100",
+        "FUN_0800530c=0x08005285",
+        "FUN_080055a4=0x0800551d",
+        "transmit_data=0x200002d0",
+        "transmit_header=0x20000300",
+        "transmit_id=0x20000330"
+      ],
+      "configuration": "GNU Tools for STM32 13.3.rel1; -O0 fragment verification (not a full CubeIDE 1.12.0 build)"
+    },
+    {
+      "name": "FUN_08002244",
+      "address": "0x080021d0",
+      "size": 12,
+      "source": "candidates/reused/small_b2244/FUN_08002244.c",
+      "source_sha256": "12795b070da48da130da425d7cba392c8b6e8e960ffb9ccaf9df454a66a758ba",
+      "compiler_flags": [
+        "-O0",
+        "-I",
+        "candidates/reused/small_b2244"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08002250",
+      "address": "0x080021dc",
+      "size": 72,
+      "source": "candidates/reused/application/clock_enable.c",
+      "source_sha256": "a7464052be3af34914ea87c9b1ca3e86d18d7b2bae386e85f6fd582995fbe33d",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [
+        "FUN_08008330=0x080082a9"
+      ],
+      "configuration": "GNU Tools for STM32 13.3.rel1; -O0 fragment verification (not a full CubeIDE 1.12.0 build)"
+    },
+    {
+      "name": "FUN_08002298",
+      "address": "0x08002224",
+      "size": 364,
+      "source": "candidates/reused/small_r3/FUN_08002298.c",
+      "source_sha256": "072343520e07e7c7f2c02652e4c9a8e174ab484e68d1354a337ca3516843415e",
+      "compiler_flags": [
+        "-O0",
+        "-I",
+        "candidates/reused/small_r3"
+      ],
+      "defsyms": [
+        "hr_counter=0x20000340",
+        "FUN_080099e4=0x80095e5",
+        "FUN_08008d3c=0x8008cb5",
+        "FUN_08002244=0x80021d1",
+        "FUN_08004eea=0x8004e63",
+        "FUN_08004f1e=0x8004e97",
+        "FUN_08005c9c=0x8005c15"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08002404",
+      "address": "0x08002390",
+      "size": 196,
+      "source": "candidates/reused/small_c2404/v1.c",
+      "source_sha256": "bdde67785e84a53a46103d169bd8aab3ca7d690daeabf223d265538b2ac5ce94",
+      "compiler_flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-asynchronous-unwind-tables",
+        "-fno-unwind-tables",
+        "-I",
+        "candidates/reused/small_c2404"
+      ],
+      "defsyms": [
+        "FUN_080099e4=0x80095e5",
+        "FUN_08008d3c=0x8008cb5",
+        "FUN_08002244=0x80021d1",
+        "FUN_08005c9c=0x8005c15",
+        "FUN_08004eea=0x8004e63",
+        "FUN_08004f1e=0x8004e97"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_080024c8",
+      "address": "0x08002454",
+      "size": 136,
+      "source": "candidates/reused/application/peripheral_clock_msp.c",
+      "source_sha256": "e84e01eba91429faf70bfb7dfe1a37795c731484c2b0d5e6b8706ba91008a4d9",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [
+        "FUN_08005c9c=0x08005c15"
+      ],
+      "configuration": "GNU Tools for STM32 13.3.rel1; -O0 fragment verification (not a full CubeIDE 1.12.0 build)"
+    },
+    {
+      "name": "FUN_08002550",
+      "address": "0x080024dc",
+      "size": 144,
+      "source": "candidates/reused/application/peripheral_pins_msp.c",
+      "source_sha256": "c2027b970018e5e0a52f6b0bcca7bb9e21ae31d091ead30e64a9055672d4edff",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [
+        "FUN_08005c9c=0x08005c15"
+      ],
+      "configuration": "GNU Tools for STM32 13.3.rel1; -O0 fragment verification (not a full CubeIDE 1.12.0 build)"
+    },
+    {
+      "name": "FUN_080025e0",
+      "address": "0x0800256c",
+      "size": 76,
+      "source": "candidates/reused/application/timer_msp.c",
+      "source_sha256": "b6b78a393976cf98a0004502cf5cdd04a9f74d9e065117f39b984d4d3b6ef236",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [
+        "FUN_08004eea=0x08004e63",
+        "FUN_08004f1e=0x08004e97"
+      ],
+      "configuration": "GNU Tools for STM32 13.3.rel1; -O0 fragment verification (not a full CubeIDE 1.12.0 build)"
+    },
+    {
+      "name": "FUN_0800262c",
+      "address": "0x080025b8",
+      "size": 26,
+      "source": "candidates/reused/application/adc_read.c",
+      "source_sha256": "8810a907f40f56ac0eff7936299198b8616ee429c193a829fb8daaaa5f802f09",
+      "compiler_flags": [
+        "-O0",
+        "-I",
+        "candidates/reused/application"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "NMI_Handler",
+      "address": "0x080025d2",
+      "size": 8,
+      "source": "candidates/NMI_Handler.c",
+      "source_sha256": "1f9bf1664caf3586c730299ead1d478246f4b58e9cec0b8aa292746243797288",
+      "compiler_flags": [
+        "-O0",
+        "-g3",
+        "-std=gnu11",
+        "-fcyclomatic-complexity",
+        "-fstack-usage",
+        "-fno-common",
+        "-DDEBUG",
+        "-DUSE_HAL_DRIVER",
+        "-DSTM32G474xx",
+        "-I",
+        "../../Drivers/STM32G4xx_HAL_Driver/Inc",
+        "-I",
+        "../../Core/Inc",
+        "-I",
+        "../../Drivers/CMSIS/Device/ST/STM32G4xx/Include",
+        "-I",
+        "../../Drivers/CMSIS/Include"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug"
+    },
+    {
+      "name": "HardFault_Handler",
+      "address": "0x080025da",
+      "size": 8,
+      "source": "candidates/core_exceptions.c",
+      "source_sha256": "4b0242e1dae840b6546f0327aaec02852a0b671c4d9463c475d76fdb9c3de631",
+      "compiler_flags": [
+        "-O0",
+        "-DSTM32G474xx",
+        "-I",
+        "../../Drivers/CMSIS/Device/ST/STM32G4xx/Include",
+        "-I",
+        "../../Drivers/CMSIS/Include"
+      ],
+      "defsyms": [],
+      "configuration": "GNU Tools for STM32 13.3.rel1; -O0 fragment verification (not a full CubeIDE 1.12.0 build)"
+    },
+    {
+      "name": "MemManage_Handler",
+      "address": "0x080025e2",
+      "size": 8,
+      "source": "candidates/core_exceptions.c",
+      "source_sha256": "4b0242e1dae840b6546f0327aaec02852a0b671c4d9463c475d76fdb9c3de631",
+      "compiler_flags": [
+        "-O0",
+        "-DSTM32G474xx",
+        "-I",
+        "../../Drivers/CMSIS/Device/ST/STM32G4xx/Include",
+        "-I",
+        "../../Drivers/CMSIS/Include"
+      ],
+      "defsyms": [],
+      "configuration": "GNU Tools for STM32 13.3.rel1; -O0 fragment verification (not a full CubeIDE 1.12.0 build)"
+    },
+    {
+      "name": "BusFault_Handler",
+      "address": "0x080025ea",
+      "size": 8,
+      "source": "candidates/core_exceptions.c",
+      "source_sha256": "4b0242e1dae840b6546f0327aaec02852a0b671c4d9463c475d76fdb9c3de631",
+      "compiler_flags": [
+        "-O0",
+        "-DSTM32G474xx",
+        "-I",
+        "../../Drivers/CMSIS/Device/ST/STM32G4xx/Include",
+        "-I",
+        "../../Drivers/CMSIS/Include"
+      ],
+      "defsyms": [],
+      "configuration": "GNU Tools for STM32 13.3.rel1; -O0 fragment verification (not a full CubeIDE 1.12.0 build)"
+    },
+    {
+      "name": "UsageFault_Handler",
+      "address": "0x080025f2",
+      "size": 8,
+      "source": "candidates/core_exceptions.c",
+      "source_sha256": "4b0242e1dae840b6546f0327aaec02852a0b671c4d9463c475d76fdb9c3de631",
+      "compiler_flags": [
+        "-O0",
+        "-DSTM32G474xx",
+        "-I",
+        "../../Drivers/CMSIS/Device/ST/STM32G4xx/Include",
+        "-I",
+        "../../Drivers/CMSIS/Include"
+      ],
+      "defsyms": [],
+      "configuration": "GNU Tools for STM32 13.3.rel1; -O0 fragment verification (not a full CubeIDE 1.12.0 build)"
+    },
+    {
+      "name": "SVC_Handler",
+      "address": "0x080025fa",
+      "size": 14,
+      "source": "candidates/target_stubs.c",
+      "source_sha256": "929bd8e4308b2fff5a0eb61a9981853fd9cee78e4539190cc68a62aab0bb4c24",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "DebugMon_Handler",
+      "address": "0x08002608",
+      "size": 14,
+      "source": "candidates/target_stubs.c",
+      "source_sha256": "929bd8e4308b2fff5a0eb61a9981853fd9cee78e4539190cc68a62aab0bb4c24",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "PendSV_Handler",
+      "address": "0x08002616",
+      "size": 14,
+      "source": "candidates/target_stubs.c",
+      "source_sha256": "929bd8e4308b2fff5a0eb61a9981853fd9cee78e4539190cc68a62aab0bb4c24",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "SysTick_Handler",
+      "address": "0x08002624",
+      "size": 12,
+      "source": "candidates/src/core.c",
+      "source_sha256": "734cd7cae31d4ee4d4d0f96d44881859c7a4215b2dd83528347f4f3856968117",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [
+        "HAL_IncTick=0x0800296d"
+      ],
+      "configuration": "GNU Tools for STM32 13.3.rel1; -O0 fragment verification (not a full CubeIDE 1.12.0 build)"
+    },
+    {
+      "name": "IRQ_86",
+      "address": "0x0800283c",
+      "size": 20,
+      "source": "candidates/src/core.c",
+      "source_sha256": "734cd7cae31d4ee4d4d0f96d44881859c7a4215b2dd83528347f4f3856968117",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)",
+      "defsyms": [
+        "FDCAN_IRQHandler=0x0800570d",
+        "fdcan_handle=0x20000100"
+      ]
+    },
+    {
+      "name": "FUN_080028d8",
+      "address": "0x08002850",
+      "size": 36,
+      "source": "candidates/reused/src/core.c",
+      "source_sha256": "734cd7cae31d4ee4d4d0f96d44881859c7a4215b2dd83528347f4f3856968117",
+      "compiler_flags": [
+        "-O0",
+        "-I",
+        "candidates/reused/src"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "IRQ_0",
+      "address": "0x080028c4",
+      "size": 2,
+      "source": "candidates/reused/small_e/irq0.c",
+      "source_sha256": "6cba60a969bc94d1d1841ca205c24f73a281d2450c281b7fea0b075d0396a27e",
+      "compiler_flags": [
+        "-Os"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Release (-Os; fragment verification)"
+    },
+    {
+      "name": "FUN_0800294e",
+      "address": "0x80028c6",
+      "size": 48,
+      "source": "candidates/reused/small_e/startup_check.c",
+      "source_sha256": "234b7e104fdb4d56e473f035456e700781b3e4285dd13caa5e36f66806989b9c",
+      "compiler_flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections"
+      ],
+      "defsyms": [
+        "FUN_08002250=0x080021dd",
+        "FUN_08002980=0x080028f9",
+        "FUN_08004ed4=0x08004e4d"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08002980",
+      "address": "0x80028f8",
+      "size": 116,
+      "source": "candidates/reused/small_j/FUN_08002980.c",
+      "source_sha256": "9fd7ef8071ff234b5dffbc60e0ab841a935387d1a2602a9cb1a5333653da1dec",
+      "compiler_flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-fno-pic",
+        "-fno-pie"
+      ],
+      "defsyms": [
+        "helper_busy=0x08004eb3",
+        "helper_apply=0x08004e63",
+        "RATE=0x20000008",
+        "TIMER=0x20000000",
+        "STATE=0x20000004"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "HAL_IncTick",
+      "address": "0x0800296c",
+      "size": 36,
+      "source": "candidates/src/core.c",
+      "source_sha256": "734cd7cae31d4ee4d4d0f96d44881859c7a4215b2dd83528347f4f3856968117",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)",
+      "defsyms": [
+        "uwTick=0x2000035c",
+        "uwTickFreq=0x20000008"
+      ]
+    },
+    {
+      "name": "HAL_GetTick",
+      "address": "0x08002990",
+      "size": 24,
+      "source": "candidates/src/core.c",
+      "source_sha256": "734cd7cae31d4ee4d4d0f96d44881859c7a4215b2dd83528347f4f3856968117",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)",
+      "defsyms": [
+        "uwTick=0x2000035c"
+      ]
+    },
+    {
+      "name": "HAL_Delay",
+      "address": "0x080029a8",
+      "size": 68,
+      "source": "candidates/src/core.c",
+      "source_sha256": "734cd7cae31d4ee4d4d0f96d44881859c7a4215b2dd83528347f4f3856968117",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)",
+      "defsyms": [
+        "uwTick=0x2000035c",
+        "uwTickFreq=0x20000008",
+        "HAL_GetTick=0x08002991"
+      ]
+    },
+    {
+      "name": "FUN_08002a74",
+      "address": "0x080029ec",
+      "size": 38,
+      "source": "candidates/reused/candidates_small/FUN_08002a74.c",
+      "source_sha256": "afc435ec6b44213ee15712f79fa0a3541467fb54a25f277eabaed6e31f3a3935",
+      "compiler_flags": [
+        "-O0",
+        "-mthumb",
+        "-mcpu=cortex-m4",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-std=c11",
+        "-I",
+        "candidates/reused/candidates_small"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08002a9a",
+      "address": "0x08002a12",
+      "size": 38,
+      "source": "candidates/reused/candidates_small/FUN_08002a9a.c",
+      "source_sha256": "5dc4ec795e3d58ef9e190a44f51adba04f140cef71e81a0f481ab900ce2182ac",
+      "compiler_flags": [
+        "-O0",
+        "-mthumb",
+        "-mcpu=cortex-m4",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-std=c11",
+        "-I",
+        "candidates/reused/candidates_small"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08002ac0",
+      "address": "0x08002a38",
+      "size": 28,
+      "source": "candidates/reused/candidates_small/FUN_08002ac0.c",
+      "source_sha256": "21024e69d2319058e867ba7afcc1c6426b3cafc3e1e8ad27066ac7d0935c89e6",
+      "compiler_flags": [
+        "-O0",
+        "-mthumb",
+        "-mcpu=cortex-m4",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-std=c11",
+        "-I",
+        "candidates/reused/candidates_small"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08002adc",
+      "address": "0x08002a54",
+      "size": 72,
+      "source": "candidates/reused/candidates_small/FUN_08002adc.c",
+      "source_sha256": "2dfca280a74d5724bdea27d28a3901adfa955bb2231afb7417a6b9ce17fab66f",
+      "compiler_flags": [
+        "-O0",
+        "-mthumb",
+        "-mcpu=cortex-m4",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-std=c11",
+        "-I",
+        "candidates/reused/candidates_small"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08002b24",
+      "address": "0x08002a9c",
+      "size": 44,
+      "source": "candidates/reused/candidates_small/FUN_08002b24.c",
+      "source_sha256": "354864a0ccb4787c64491be871dc33f605a6929cae44704f00a27ba537bebf8c",
+      "compiler_flags": [
+        "-O0",
+        "-mthumb",
+        "-mcpu=cortex-m4",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-std=c11",
+        "-I",
+        "candidates/reused/candidates_small"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08002b50",
+      "address": "0x08002ac8",
+      "size": 54,
+      "source": "candidates/reused/candidates_small/FUN_08002b50.c",
+      "source_sha256": "d947b8992e433a9f5bd8604e93751d90630f8f65ce1054eac7a1696e7771f68c",
+      "compiler_flags": [
+        "-O0",
+        "-mthumb",
+        "-mcpu=cortex-m4",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-std=c11",
+        "-I",
+        "candidates/reused/candidates_small"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08002b86",
+      "address": "0x08002afe",
+      "size": 54,
+      "source": "candidates/reused/candidates_small/FUN_08002b86.c",
+      "source_sha256": "d8593d65401e05db12d9b5605cfa95131791158f2c12c68c945552e19b16d26c",
+      "compiler_flags": [
+        "-O0",
+        "-mthumb",
+        "-mcpu=cortex-m4",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-std=c11",
+        "-I",
+        "candidates/reused/candidates_small"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08002bbc",
+      "address": "0x08002b34",
+      "size": 54,
+      "source": "candidates/reused/candidates_small/FUN_08002bbc.c",
+      "source_sha256": "50400f9018e98002a907163225faf9011b3a947cc25ef1c33d9cdf1a29bc2ab2",
+      "compiler_flags": [
+        "-O0",
+        "-mthumb",
+        "-mcpu=cortex-m4",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-std=c11",
+        "-I",
+        "candidates/reused/candidates_small"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08002bf2",
+      "address": "0x08002b6a",
+      "size": 38,
+      "source": "candidates/reused/candidates_small/FUN_08002bf2.c",
+      "source_sha256": "9b96083f42ecf6b1ebd329a9046b5190c44185248772cb377c785a90f98774fd",
+      "compiler_flags": [
+        "-O0",
+        "-mthumb",
+        "-mcpu=cortex-m4",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-std=c11",
+        "-I",
+        "candidates/reused/candidates_small"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08002c18",
+      "address": "0x08002b90",
+      "size": 38,
+      "source": "candidates/reused/candidates_small/FUN_08002c18.c",
+      "source_sha256": "0b765067474c3b9f77eb43d6da2f96e48ab0614cef10bed65488b42878c9cf70",
+      "compiler_flags": [
+        "-O0",
+        "-mthumb",
+        "-mcpu=cortex-m4",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-std=c11",
+        "-I",
+        "candidates/reused/candidates_small"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08002c3e",
+      "address": "0x08002bb6",
+      "size": 88,
+      "source": "candidates/reused/candidates_small/FUN_08002c3e.c",
+      "source_sha256": "22ec9cf7b95500b41d12a3335b6c1e504b93ebfbb071c23009693dbc0f954213",
+      "compiler_flags": [
+        "-O0",
+        "-mthumb",
+        "-mcpu=cortex-m4",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-std=c11",
+        "-I",
+        "candidates/reused/candidates_small"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08002c96",
+      "address": "0x08002c0e",
+      "size": 38,
+      "source": "candidates/reused/candidates_small/FUN_08002c96.c",
+      "source_sha256": "0f1204c38d02fd627abe4902347b0345669847d8cfce9021e0d48f76e6160942",
+      "compiler_flags": [
+        "-O0",
+        "-mthumb",
+        "-mcpu=cortex-m4",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-std=c11",
+        "-I",
+        "candidates/reused/candidates_small"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08002cbc",
+      "address": "0x08002c34",
+      "size": 86,
+      "source": "candidates/reused/candidates_small/FUN_08002cbc.c",
+      "source_sha256": "efed8f7c246819100763bd178e46201c61ca3db262dba3ca0531e2027e02610c",
+      "compiler_flags": [
+        "-O0",
+        "-mthumb",
+        "-mcpu=cortex-m4",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-std=c11",
+        "-I",
+        "candidates/reused/candidates_small"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08002d14",
+      "address": "0x08002c8c",
+      "size": 72,
+      "source": "candidates/reused/candidates_small/FUN_08002d14.c",
+      "source_sha256": "cb2a3037b2b6472f24e72e4124e3a09019502a8b643db4719e467c58704ff16c",
+      "compiler_flags": [
+        "-O0",
+        "-mthumb",
+        "-mcpu=cortex-m4",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-std=c11",
+        "-I",
+        "candidates/reused/candidates_small"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08002d5c",
+      "address": "0x08002cd4",
+      "size": 28,
+      "source": "candidates/reused/candidates_small/FUN_08002d5c.c",
+      "source_sha256": "ac6e90d1e24f499376e351a32835281a87642dc4ba5f5c73f450193d8539abae",
+      "compiler_flags": [
+        "-O0",
+        "-mthumb",
+        "-mcpu=cortex-m4",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-std=c11",
+        "-I",
+        "candidates/reused/candidates_small"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08002d78",
+      "address": "0x08002cf0",
+      "size": 28,
+      "source": "candidates/reused/candidates_small/FUN_08002d78.c",
+      "source_sha256": "74ead6397956f892d2391586d0d785ef89f8c8978edad42e41c2d864aa287ecc",
+      "compiler_flags": [
+        "-O0",
+        "-mthumb",
+        "-mcpu=cortex-m4",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-std=c11",
+        "-I",
+        "candidates/reused/candidates_small"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08002d94",
+      "address": "0x08002d0c",
+      "size": 36,
+      "source": "candidates/reused/candidates_small/FUN_08002d94.c",
+      "source_sha256": "bfbcb4304cc1569ea9205568323d8deda40330e571782c2f413ce993a0cd3548",
+      "compiler_flags": [
+        "-O0",
+        "-mthumb",
+        "-mcpu=cortex-m4",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-std=c11",
+        "-I",
+        "candidates/reused/candidates_small"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08002db8",
+      "address": "0x08002d30",
+      "size": 40,
+      "source": "candidates/reused/candidates_small/FUN_08002db8.c",
+      "source_sha256": "81a1d38eda986c04087c09b886c7a9d5bccb3e7f0d44e50c521dd7e7d4fb46cd",
+      "compiler_flags": [
+        "-O0",
+        "-mthumb",
+        "-mcpu=cortex-m4",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-std=c11",
+        "-I",
+        "candidates/reused/candidates_small"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08002de0",
+      "address": "0x08002d58",
+      "size": 40,
+      "source": "candidates/reused/candidates_small/FUN_08002de0.c",
+      "source_sha256": "845497e1202200a41a214c6ae25ccfeeb94ccf01a466e08b2aa7a5cf184cbcd6",
+      "compiler_flags": [
+        "-O0",
+        "-mthumb",
+        "-mcpu=cortex-m4",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-std=c11",
+        "-I",
+        "candidates/reused/candidates_small"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08002e08",
+      "address": "0x08002d80",
+      "size": 40,
+      "source": "candidates/reused/candidates_small/FUN_08002e08.c",
+      "source_sha256": "06bfa87832c2a241d24821c9f8a5c3ce5d58c5d6973d6aaa155d2a33ca71f221",
+      "compiler_flags": [
+        "-O0",
+        "-mthumb",
+        "-mcpu=cortex-m4",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-std=c11",
+        "-I",
+        "candidates/reused/candidates_small"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08002e30",
+      "address": "0x08002da8",
+      "size": 40,
+      "source": "candidates/reused/candidates_small/FUN_08002e30.c",
+      "source_sha256": "d6457f14dd526851695847885a28656e7eb2b80fc948cbfe00fb1edea7482a0c",
+      "compiler_flags": [
+        "-O0",
+        "-mthumb",
+        "-mcpu=cortex-m4",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-std=c11",
+        "-I",
+        "candidates/reused/candidates_small"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08002e58",
+      "address": "0x08002dd0",
+      "size": 40,
+      "source": "candidates/reused/candidates_small/FUN_08002e58.c",
+      "source_sha256": "32998d30cb9d9a5c57ceec2d44caa862058bf5c9a5c320946e542ef6251b901e",
+      "compiler_flags": [
+        "-O0",
+        "-mthumb",
+        "-mcpu=cortex-m4",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-std=c11",
+        "-I",
+        "candidates/reused/candidates_small"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08002e80",
+      "address": "0x08002df8",
+      "size": 38,
+      "source": "candidates/reused/candidates_small/FUN_08002e80.c",
+      "source_sha256": "65c6a8903ca78549e79c57878c28038137099dcd7dbeec5f6189e3ad77d8d1ca",
+      "compiler_flags": [
+        "-O0",
+        "-I",
+        "candidates/reused/candidates_small"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08002ea6",
+      "address": "0x08002e1e",
+      "size": 38,
+      "source": "candidates/reused/candidates_small/FUN_08002ea6.c",
+      "source_sha256": "460931dc843ae262a156ada2f20d4cdeda35b66040db11f7af85f9ad272fb203",
+      "compiler_flags": [
+        "-O0",
+        "-mthumb",
+        "-mcpu=cortex-m4",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-std=c11",
+        "-I",
+        "candidates/reused/candidates_small"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08002ecc",
+      "address": "0x08002e44",
+      "size": 40,
+      "source": "candidates/reused/candidates_small/FUN_08002ecc.c",
+      "source_sha256": "a1aa4164dfd5ede24c2fd4d8d8359799a54cf1cb7bca02b786b912a164cdf7b1",
+      "compiler_flags": [
+        "-O0",
+        "-mthumb",
+        "-mcpu=cortex-m4",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-std=c11",
+        "-I",
+        "candidates/reused/candidates_small"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08002ef4",
+      "address": "0x08002e6c",
+      "size": 40,
+      "source": "candidates/reused/candidates_small/FUN_08002ef4.c",
+      "source_sha256": "b06ec992d8545803b24ca4f19c48f8bae2ac3d2e1f17c96cf2a3bc2ac9699042",
+      "compiler_flags": [
+        "-O0",
+        "-mthumb",
+        "-mcpu=cortex-m4",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-std=c11",
+        "-I",
+        "candidates/reused/candidates_small"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08002f1c",
+      "address": "0x08002e94",
+      "size": 38,
+      "source": "candidates/reused/candidates_small/FUN_08002f1c.c",
+      "source_sha256": "2cf2b1232574d0a3a3b7c58681e0af7b041c3e95d5e3403a514f18484cec4e49",
+      "compiler_flags": [
+        "-O0",
+        "-I",
+        "candidates/reused/candidates_small"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08002f42",
+      "address": "0x08002eba",
+      "size": 40,
+      "source": "candidates/reused/candidates_small/FUN_08002f42.c",
+      "source_sha256": "5851f0e0a1a7bb89180f73eab75ce0bc23baa07f43594308252698953212f8f9",
+      "compiler_flags": [
+        "-O0",
+        "-mthumb",
+        "-mcpu=cortex-m4",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-std=c11",
+        "-I",
+        "candidates/reused/candidates_small"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08002f6a",
+      "address": "0x08002ee2",
+      "size": 38,
+      "source": "candidates/reused/candidates_small/FUN_08002f6a.c",
+      "source_sha256": "80ab90b2e7d0aa9e5338fec35030b536ef87cfca97cb7b61776f8aac8751fd84",
+      "compiler_flags": [
+        "-O0",
+        "-mthumb",
+        "-mcpu=cortex-m4",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-std=c11",
+        "-I",
+        "candidates/reused/candidates_small"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08002f90",
+      "address": "0x8002f08",
+      "size": 888,
+      "source": "candidates/reused/small_k2f90/FUN_08002f90.c",
+      "source_sha256": "febe9fa12c3a1a6807aae5bc62d9f1e2cbb8e767752872e94627d9098acd0a1c",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [
+        "CLK=0x20000000",
+        "FUN_08002298=0x08002225",
+        "FUN_08002a74=0x080029ed",
+        "FUN_08002d94=0x08002d0d",
+        "FUN_08002db8=0x08002d31",
+        "FUN_08002de0=0x08002d59",
+        "FUN_08002e08=0x08002d81",
+        "FUN_08002e80=0x08002df9",
+        "FUN_08002f1c=0x08002e95",
+        "FUN_08002f6a=0x08002ee3"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08003308",
+      "address": "0x08003280",
+      "size": 456,
+      "source": "candidates/reused/small_p3308/FUN_08003308.c",
+      "source_sha256": "8ada20b080a7ed30358236559037a9700265ecf1145aa4cf1d2ab0c629963882",
+      "compiler_flags": [
+        "-O0",
+        "-I",
+        "candidates/reused/small_p3308"
+      ],
+      "defsyms": [
+        "FUN_08002d5c=0x8002cd5",
+        "FUN_08002f1c=0x8002e95",
+        "FUN_0800476c=0x80046e5",
+        "FUN_08002ecc=0x8002e45"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_080034d0",
+      "address": "0x8003448",
+      "size": 102,
+      "source": "candidates/reused/periph_i/mux_request.c",
+      "source_sha256": "ee34129cc5230c22db763a1fa191a9dc5b05ef21a1d1e4987adbc172ac548035",
+      "compiler_flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections"
+      ],
+      "defsyms": [
+        "FUN_080045f4=0x0800456d",
+        "FUN_08004898=0x08004811"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08003538",
+      "address": "0x080034b0",
+      "size": 688,
+      "source": "candidates/reused/small_m3538/FUN_08003538.c",
+      "source_sha256": "6137f6fa0588717d64cef9651b86fefb1649603d82511f1857a8299775664e7d",
+      "compiler_flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-asynchronous-unwind-tables",
+        "-fno-unwind-tables",
+        "-I",
+        "candidates/reused/small_m3538"
+      ],
+      "defsyms": [
+        "FUN_08002d5c=0x8002cd5",
+        "FUN_08002f1c=0x8002e95",
+        "FUN_0800476c=0x80046e5",
+        "FUN_08002ecc=0x8002e45"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_080037e8",
+      "address": "0x8003760",
+      "size": 118,
+      "source": "candidates/reused/periph_k/FUN_080037e8.c",
+      "source_sha256": "6624714a5a59d40c031dfee902de6fec9f08daa9d812b594d9585aa348f152a4",
+      "compiler_flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections"
+      ],
+      "defsyms": [
+        "FUN_080045f4=0x0800456d",
+        "FUN_08004898=0x08004811"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_0800385e",
+      "address": "0x080037d6",
+      "size": 26,
+      "source": "candidates/reused/src/core.c",
+      "source_sha256": "734cd7cae31d4ee4d4d0f96d44881859c7a4215b2dd83528347f4f3856968117",
+      "compiler_flags": [
+        "-O0",
+        "-I",
+        "candidates/reused/src"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08003878",
+      "address": "0x80037f0",
+      "size": 1216,
+      "source": "candidates/reused/small_h3878/FUN_08003878.c",
+      "source_sha256": "5a8c580e5d7ece2c024e5ace02f99c22134bed84cdeb2c0e6e536d8e61fbf659",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [
+        "FUN_08002c18=0x08002b91",
+        "FUN_08002c96=0x08002c0f",
+        "FUN_08002d5c=0x08002cd5",
+        "FUN_08002d78=0x08002cf1",
+        "FUN_08002f1c=0x08002e95",
+        "FUN_08002f6a=0x08002ee3",
+        "FUN_08003d38=0x08003cb1",
+        "FUN_08003d4c=0x08003cc5",
+        "FUN_08003d60=0x08003cd9",
+        "FUN_08004ac0=0x08004a39",
+        "FUN_08004ad4=0x08004a4d",
+        "FUN_08004ae8=0x08004a61",
+        "FUN_08004afc=0x08004a75",
+        "FUN_08004b10=0x08004a89"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08003cb0",
+      "address": "0x08003cb0",
+      "size": 20,
+      "source": "candidates/target_stubs.c",
+      "source_sha256": "929bd8e4308b2fff5a0eb61a9981853fd9cee78e4539190cc68a62aab0bb4c24",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08003cc4",
+      "address": "0x08003cc4",
+      "size": 20,
+      "source": "candidates/target_stubs.c",
+      "source_sha256": "929bd8e4308b2fff5a0eb61a9981853fd9cee78e4539190cc68a62aab0bb4c24",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08003cd8",
+      "address": "0x08003cd8",
+      "size": 20,
+      "source": "candidates/target_stubs.c",
+      "source_sha256": "929bd8e4308b2fff5a0eb61a9981853fd9cee78e4539190cc68a62aab0bb4c24",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_080045f4",
+      "address": "0x0800456c",
+      "size": 376,
+      "source": "candidates/reused/work/FUN_080045f4.c",
+      "source_sha256": "03876fb551abbd6599039428554bf9bc66f257bfd3cafd0748c2e041adc6521b",
+      "compiler_flags": [
+        "-O0",
+        "-I",
+        "candidates/reused/work"
+      ],
+      "defsyms": [
+        "FUN_08002f1c=0x8002e95",
+        "FUN_08002f6a=0x8002ee3",
+        "FUN_08002ea6=0x8002e1f",
+        "FUN_08002ef4=0x8002e6d",
+        "FUN_08002f42=0x8002ebb",
+        "FUN_08002a18=0x8002991"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_0800476c",
+      "address": "0x080046e4",
+      "size": 300,
+      "source": "candidates/reused/small_r476c/v4.c",
+      "source_sha256": "f63b96cd5c4b3b37085c257a49e612a537d12250b103eccfd43a7b2172f60286",
+      "compiler_flags": [
+        "-O0",
+        "-I",
+        "candidates/reused/small_r476c"
+      ],
+      "defsyms": [
+        "FUN_08002e80=0x8002df9",
+        "FUN_08002e30=0x8002da9",
+        "FUN_08002ac0=0x8002a39",
+        "FUN_08002a18=0x8002991",
+        "CLK=0x20000000"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08004898",
+      "address": "0x8004810",
+      "size": 190,
+      "source": "candidates/reused/periph_k/FUN_08004898.c",
+      "source_sha256": "5f7aa4e3981e1e22ae717ae68d0ea49abb4fd526142cab92a5c8a7d6b9af52fb",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [
+        "FUN_08002a18=0x08002991",
+        "FUN_08002e58=0x08002dd1",
+        "FUN_08002e80=0x08002df9",
+        "FUN_08002ea6=0x08002e1f"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08004956",
+      "address": "0x080048ce",
+      "size": 38,
+      "source": "candidates/reused/src/core.c",
+      "source_sha256": "734cd7cae31d4ee4d4d0f96d44881859c7a4215b2dd83528347f4f3856968117",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_0800497c",
+      "address": "0x080048f4",
+      "size": 50,
+      "source": "candidates/reused/periph_c/FUN_0800497c.c",
+      "source_sha256": "69fd2744523adef3a9517097b5925ca76115155c702d1d7c271826bc82682985",
+      "compiler_flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-I",
+        "candidates/reused/periph_c"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_080049ae",
+      "address": "0x08004926",
+      "size": 40,
+      "source": "candidates/reused/src/core.c",
+      "source_sha256": "734cd7cae31d4ee4d4d0f96d44881859c7a4215b2dd83528347f4f3856968117",
+      "compiler_flags": [
+        "-O0",
+        "-I",
+        "candidates/reused/src"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_080049d6",
+      "address": "0x0800494e",
+      "size": 38,
+      "source": "candidates/reused/src/core.c",
+      "source_sha256": "734cd7cae31d4ee4d4d0f96d44881859c7a4215b2dd83528347f4f3856968117",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_080049fc",
+      "address": "0x08004974",
+      "size": 196,
+      "source": "candidates/reused/small_r3/FUN_080049fc.c",
+      "source_sha256": "1f2d958055a9d48cdb95b9ba8ed70860bad6ef73a0770cf6860702ab1bc1cc88",
+      "compiler_flags": [
+        "-O0",
+        "-I",
+        "candidates/reused/small_r3"
+      ],
+      "defsyms": [
+        "FUN_08004898=0x8004811",
+        "FUN_0800497c=0x80048f5",
+        "FUN_080049ae=0x8004927"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08004a38",
+      "address": "0x08004a38",
+      "size": 20,
+      "source": "candidates/target_stubs.c",
+      "source_sha256": "929bd8e4308b2fff5a0eb61a9981853fd9cee78e4539190cc68a62aab0bb4c24",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08004a4c",
+      "address": "0x08004a4c",
+      "size": 20,
+      "source": "candidates/target_stubs.c",
+      "source_sha256": "929bd8e4308b2fff5a0eb61a9981853fd9cee78e4539190cc68a62aab0bb4c24",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08004a60",
+      "address": "0x08004a60",
+      "size": 20,
+      "source": "candidates/target_stubs.c",
+      "source_sha256": "929bd8e4308b2fff5a0eb61a9981853fd9cee78e4539190cc68a62aab0bb4c24",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08004a74",
+      "address": "0x08004a74",
+      "size": 20,
+      "source": "candidates/target_stubs.c",
+      "source_sha256": "929bd8e4308b2fff5a0eb61a9981853fd9cee78e4539190cc68a62aab0bb4c24",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08004a88",
+      "address": "0x08004a88",
+      "size": 20,
+      "source": "candidates/target_stubs.c",
+      "source_sha256": "929bd8e4308b2fff5a0eb61a9981853fd9cee78e4539190cc68a62aab0bb4c24",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08004b24",
+      "address": "0x08004a9c",
+      "size": 528,
+      "source": "candidates/reused/small_n4b24/FUN_08004b24.c",
+      "source_sha256": "7349706490fa1d3d2ae38813f0405c612ac9a3da4145a83bd15b0a1d22721569",
+      "compiler_flags": [
+        "-O0",
+        "-I",
+        "candidates/reused/small_n4b24"
+      ],
+      "defsyms": [
+        "FUN_080049d6=0x800494e",
+        "FUN_08004956=0x80048ce"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08004d34",
+      "address": "0x8004cac",
+      "size": 72,
+      "source": "candidates/reused/periph_c/FUN_08004d34.c",
+      "source_sha256": "6772ddc0c6bf23ad1fdf443089df6c4f323a8a25b971a13cc046e571dad337f9",
+      "compiler_flags": [
+        "-O0",
+        "-mthumb",
+        "-mcpu=cortex-m4",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": [
+        "SCB_BASE=0xe000ed00"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08004d7c",
+      "address": "0x08004cf4",
+      "size": 28,
+      "source": "candidates/reused/src/core.c",
+      "source_sha256": "734cd7cae31d4ee4d4d0f96d44881859c7a4215b2dd83528347f4f3856968117",
+      "compiler_flags": [
+        "-O0",
+        "-I",
+        "candidates/reused/src"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08004d98",
+      "address": "0x08004d10",
+      "size": 60,
+      "source": "candidates/reused/small_aw/v4.c",
+      "source_sha256": "6dd32cd40e7fd8c4a4e76c052f8dc422ae3493ea3a824d2cdfd2d7f754efbbe6",
+      "compiler_flags": [
+        "-O0",
+        "-I",
+        "candidates/reused/small_aw"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08004dd4",
+      "address": "0x08004d4c",
+      "size": 84,
+      "source": "candidates/reused/small_e4dd4/v10.c",
+      "source_sha256": "11fb258e726d59fc5f532933db7cf2e02b3d6be4507267ff774551021b57e0a0",
+      "compiler_flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-asynchronous-unwind-tables",
+        "-fno-unwind-tables",
+        "-I",
+        "candidates/reused/small_e4dd4"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08004e28",
+      "address": "0x08004da0",
+      "size": 102,
+      "source": "candidates/reused/small_as/v7.c",
+      "source_sha256": "13a2d6c43acb07223ef7a65d85c68fade168eabdb1249245dd35c239d68acdb7",
+      "compiler_flags": [
+        "-O0",
+        "-I",
+        "candidates/reused/small_as"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08004e90",
+      "address": "0x8004e08",
+      "size": 68,
+      "source": "candidates/reused/small_o/systick_config.c",
+      "source_sha256": "95e47b3d5330b7818d86f30ce832a7909c55898c616d1086478acf5556d202a6",
+      "compiler_flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin"
+      ],
+      "defsyms": [
+        "FUN_08004dd4=0x08004d4d",
+        "SYSTICK=0xe000e010"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08004ed4",
+      "address": "0x08004e4c",
+      "size": 22,
+      "source": "candidates/src/core.c",
+      "source_sha256": "734cd7cae31d4ee4d4d0f96d44881859c7a4215b2dd83528347f4f3856968117",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)",
+      "defsyms": [
+        "NVIC_SetPriorityGrouping=0x08004cad"
+      ]
+    },
+    {
+      "name": "FUN_08004eea",
+      "address": "0x8004e62",
+      "size": 52,
+      "source": "candidates/reused/periph_b/FUN_08004eea.c",
+      "source_sha256": "8f9cedf869cf5cb5d49e3b0d32a608ab5991a1a53d51787432e74aef83229a48",
+      "compiler_flags": [
+        "-O0",
+        "-mthumb",
+        "-mcpu=cortex-m4",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-std=c11"
+      ],
+      "defsyms": [
+        "FUN_08004d7c=0x08004cf5",
+        "FUN_08004dd4=0x08004d4d",
+        "FUN_08004e28=0x08004da1"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08004f1e",
+      "address": "0x08004e96",
+      "size": 28,
+      "source": "candidates/src/core.c",
+      "source_sha256": "734cd7cae31d4ee4d4d0f96d44881859c7a4215b2dd83528347f4f3856968117",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)",
+      "defsyms": [
+        "NVIC_EnableIRQ=0x08004d11"
+      ]
+    },
+    {
+      "name": "FUN_08004f3a",
+      "address": "0x08004eb2",
+      "size": 24,
+      "source": "candidates/src/core.c",
+      "source_sha256": "734cd7cae31d4ee4d4d0f96d44881859c7a4215b2dd83528347f4f3856968117",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)",
+      "defsyms": [
+        "SysTick_Config=0x08004e09"
+      ]
+    },
+    {
+      "name": "FUN_08004f54",
+      "address": "0x08004ecc",
+      "size": 692,
+      "source": "candidates/reused/small_d4f54/v1.c",
+      "source_sha256": "b75be82b0d76d9bf4ee3b4d2041c9666138bc4b68bb69e46f04c0373856a6439",
+      "compiler_flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-asynchronous-unwind-tables",
+        "-fno-unwind-tables",
+        "-I",
+        "candidates/reused/small_d4f54"
+      ],
+      "defsyms": [
+        "FUN_08002404=0x8002391",
+        "FUN_08002a18=0x8002991",
+        "FUN_08005acc=0x8005a45"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08005208",
+      "address": "0x08005180",
+      "size": 180,
+      "source": "candidates/reused/small_x/FUN_08005208.c",
+      "source_sha256": "8022ecf3ee3d49ed54c790250deb4db14cb96b566ba964e62c3a4fe53d278c0b",
+      "compiler_flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-asynchronous-unwind-tables",
+        "-fno-unwind-tables",
+        "-I",
+        "candidates/reused/small_x"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_080052bc",
+      "address": "0x08005234",
+      "size": 80,
+      "source": "candidates/reused/small_x/FUN_080052bc.c",
+      "source_sha256": "97f68e66d3a870aae1fdfba4c93cf0e187afb0ecea6acfcfb7c46a437daa2da4",
+      "compiler_flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-fno-pic",
+        "-fno-pie",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables",
+        "-fno-stack-protector",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-I",
+        "candidates/reused/small_x"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_0800530c",
+      "address": "0x8005284",
+      "size": 136,
+      "source": "candidates/reused/small_ay/FUN_0800530c.c",
+      "source_sha256": "96af30f6c676894d69ef23cc9d42e0d7bbfd394235de784277cee53e1e8326ac",
+      "compiler_flags": [
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-O0",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffunction-sections"
+      ],
+      "defsyms": [
+        "FUN_08005ba4=0x08005b1d"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08005394",
+      "address": "0x800530c",
+      "size": 528,
+      "source": "candidates/reused/small_p5394/FUN_08005394.c",
+      "source_sha256": "a84f48ee2cd93c064087ede9b54790d450064dae17c271e176edd71faee590f1",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [
+        "DAT_08009a64=0x08009664"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_080055a4",
+      "address": "0x0800551c",
+      "size": 36,
+      "source": "candidates/reused/src/core.c",
+      "source_sha256": "734cd7cae31d4ee4d4d0f96d44881859c7a4215b2dd83528347f4f3856968117",
+      "compiler_flags": [
+        "-O0",
+        "-I",
+        "candidates/reused/src"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_080055c8",
+      "address": "0x08005540",
+      "size": 460,
+      "source": "candidates/reused/small_g55c8/FUN_080055c8.c",
+      "source_sha256": "7f73f5b92a2a383a3eaca59aa7546b491b45740f814dad7ed2fe919a29e72586",
+      "compiler_flags": [
+        "-O0",
+        "-I",
+        "candidates/reused/small_g55c8"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08005794",
+      "address": "0x0800570c",
+      "size": 614,
+      "source": "candidates/reused/small_5794/FUN_08005794.c",
+      "source_sha256": "56e217111f57ccdfde30a44d9725d0483cbfeb58ec245f2f5863f8af86df0d8f",
+      "compiler_flags": [
+        "-O0",
+        "-I",
+        "candidates/reused/small_5794"
+      ],
+      "defsyms": [
+        "FUN_08005a8e=0x8005a07",
+        "FUN_08005a50=0x80059c9",
+        "FUN_080059fa=0x8005973",
+        "FUN_08001fbc=0x8001fbd",
+        "FUN_08005a10=0x8005989",
+        "FUN_08005a26=0x800599f",
+        "FUN_08005a3a=0x80059b3",
+        "FUN_08005a66=0x80059df",
+        "FUN_08005a7a=0x80059f3",
+        "FUN_08005ab6=0x8005a2f",
+        "FUN_08005aa2=0x8005a1b"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08005972",
+      "address": "0x08005972",
+      "size": 22,
+      "source": "candidates/target_stubs.c",
+      "source_sha256": "929bd8e4308b2fff5a0eb61a9981853fd9cee78e4539190cc68a62aab0bb4c24",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08005988",
+      "address": "0x08005988",
+      "size": 22,
+      "source": "candidates/target_stubs.c",
+      "source_sha256": "929bd8e4308b2fff5a0eb61a9981853fd9cee78e4539190cc68a62aab0bb4c24",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_0800599e",
+      "address": "0x0800599e",
+      "size": 20,
+      "source": "candidates/target_stubs.c",
+      "source_sha256": "929bd8e4308b2fff5a0eb61a9981853fd9cee78e4539190cc68a62aab0bb4c24",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_080059b2",
+      "address": "0x080059b2",
+      "size": 22,
+      "source": "candidates/target_stubs.c",
+      "source_sha256": "929bd8e4308b2fff5a0eb61a9981853fd9cee78e4539190cc68a62aab0bb4c24",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_080059c8",
+      "address": "0x080059c8",
+      "size": 22,
+      "source": "candidates/target_stubs.c",
+      "source_sha256": "929bd8e4308b2fff5a0eb61a9981853fd9cee78e4539190cc68a62aab0bb4c24",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_080059de",
+      "address": "0x080059de",
+      "size": 20,
+      "source": "candidates/target_stubs.c",
+      "source_sha256": "929bd8e4308b2fff5a0eb61a9981853fd9cee78e4539190cc68a62aab0bb4c24",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_080059f2",
+      "address": "0x080059f2",
+      "size": 20,
+      "source": "candidates/target_stubs.c",
+      "source_sha256": "929bd8e4308b2fff5a0eb61a9981853fd9cee78e4539190cc68a62aab0bb4c24",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08005a06",
+      "address": "0x08005a06",
+      "size": 20,
+      "source": "candidates/target_stubs.c",
+      "source_sha256": "929bd8e4308b2fff5a0eb61a9981853fd9cee78e4539190cc68a62aab0bb4c24",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08005a1a",
+      "address": "0x08005a1a",
+      "size": 20,
+      "source": "candidates/target_stubs.c",
+      "source_sha256": "929bd8e4308b2fff5a0eb61a9981853fd9cee78e4539190cc68a62aab0bb4c24",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08005a2e",
+      "address": "0x08005a2e",
+      "size": 22,
+      "source": "candidates/target_stubs.c",
+      "source_sha256": "929bd8e4308b2fff5a0eb61a9981853fd9cee78e4539190cc68a62aab0bb4c24",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08005acc",
+      "address": "0x08005a44",
+      "size": 216,
+      "source": "candidates/reused/small_b5acc/FUN_08005acc.c",
+      "source_sha256": "8383d96c162e1ecca90259ded640bf5ff07442d8a4bc9f95fe76745d1fb770b9",
+      "compiler_flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-I",
+        "candidates/reused/small_b5acc"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08005ba4",
+      "address": "0x8005b1c",
+      "size": 248,
+      "source": "candidates/reused/small_r6/FUN_08005ba4.c",
+      "source_sha256": "5bd36ce36838559854eef5d1061954e8c1b6591d20d0f318b4069e2573f8e7c8",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [
+        "TBL_08009a64=0x08009664"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08005c9c",
+      "address": "0x08005c14",
+      "size": 772,
+      "source": "candidates/reused/small_d5c9c/v1.c",
+      "source_sha256": "7edd0684f894ec7707e270b1f06483a74439364cedb5d879217ecdd32eed6e6b",
+      "compiler_flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-asynchronous-unwind-tables",
+        "-fno-unwind-tables",
+        "-I",
+        "candidates/reused/small_d5c9c"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08005fa0",
+      "address": "0x08005f18",
+      "size": 48,
+      "source": "candidates/reused/gpio/FUN_08005fa0.c",
+      "source_sha256": "7928723a38c9dbedb5e5864c80df10f7b237d3548b6e1d1bfc370ea1644786e1",
+      "compiler_flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-I",
+        "candidates/reused/gpio"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08005fd0",
+      "address": "0x08005f48",
+      "size": 52,
+      "source": "candidates/reused/gpio/FUN_08005fd0.c",
+      "source_sha256": "abe930ec85aa6c09c530f70a426c7014368a69c4a24902f60f506addb83eea19",
+      "compiler_flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-I",
+        "candidates/reused/gpio"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08006004",
+      "address": "0x08005f7c",
+      "size": 416,
+      "source": "candidates/reused/scratch_g6004_trial/candidate.c",
+      "source_sha256": "28a2a4de8459587f36cfc5e66e596b7afce69cfb99373ba91eb89920917960c6",
+      "compiler_flags": [
+        "-O0",
+        "-I",
+        "candidates/reused/scratch_g6004_trial"
+      ],
+      "defsyms": [
+        "FUN_080024c8=0x8002455"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_080061a4",
+      "address": "0x0800611c",
+      "size": 176,
+      "source": "candidates/reused/small_y/FUN_080061a4.c",
+      "source_sha256": "756d0e525dedbf86b8cb3d2adf3e652cd5e9d0e0c86c08ce6e688d862090651b",
+      "compiler_flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables",
+        "-fno-align-labels",
+        "-fno-align-loops",
+        "-fno-align-jumps",
+        "-I",
+        "candidates/reused/small_y"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08006254",
+      "address": "0x80061cc",
+      "size": 104,
+      "source": "candidates/reused/small_y/poll_ready.c",
+      "source_sha256": "cd4c3b788376861525f61fa24340d0e797191b1700da3c0cf64e950b0c3e47a9",
+      "compiler_flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables",
+        "-fno-align-labels",
+        "-fno-align-loops",
+        "-fno-align-jumps"
+      ],
+      "defsyms": [
+        "HAL_GetTick=0x08002991"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_080062bc",
+      "address": "0x8006234",
+      "size": 80,
+      "source": "candidates/reused/small_av/FUN_080062bc.c",
+      "source_sha256": "3b39b77fa2adfe96dd524c1aebcf0489e82263dbe168e38a7a0c489ac14f5e5a",
+      "compiler_flags": [
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-O0",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffunction-sections"
+      ],
+      "defsyms": [
+        "FUN_08007958=0x080078d1",
+        "FUN_080079b6=0x0800792f"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_0800630c",
+      "address": "0x8006284",
+      "size": 896,
+      "source": "candidates/reused/small_i630c/FUN_0800630c.c",
+      "source_sha256": "d41faf7fc26ef885c62b97717a4178697cfad3bbd566846f5f6d991b1a6098b3",
+      "compiler_flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_0800668c",
+      "address": "0x08006604",
+      "size": 114,
+      "source": "candidates/reused/small_ac/FUN_0800668c.c",
+      "source_sha256": "c7777fb361cd803bc0c4a6684dae988952b449367c013e82be5760dbad3e2569",
+      "compiler_flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-I",
+        "candidates/reused/small_ac"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08006700",
+      "address": "0x8006678",
+      "size": 472,
+      "source": "candidates/reused/small_g6700/FUN_08006700.c",
+      "source_sha256": "f6e0e90e30dda75a2213883d73b65772687c50993e07e57851cc9c62368fbc75",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_080068d8",
+      "address": "0x8006850",
+      "size": 496,
+      "source": "candidates/reused/work/FUN_080068d8.c",
+      "source_sha256": "63daaea2518692472768b3db464acc02129927261b89abb13f6a3fd9aef171dd",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08006ac8",
+      "address": "0x08006a40",
+      "size": 260,
+      "source": "candidates/reused/small_ag/FUN_08006ac8.c",
+      "source_sha256": "32b002867b824c540d4c69ebcaaaf5296b8319dc3f0d94bfa7f066823a5f4e2c",
+      "compiler_flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-I",
+        "candidates/reused/small_ag"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08006bcc",
+      "address": "0x8006b44",
+      "size": 984,
+      "source": "candidates/reused/small_h6bcc/FUN_08006bcc.c",
+      "source_sha256": "799d5f3bb9570ea48f3dfdb20ce3b961ee9cdc8b96ef674ee5f780c2d25b562a",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08006fa4",
+      "address": "0x8006f1c",
+      "size": 660,
+      "source": "candidates/reused/small_n6fa4/FUN_08006fa4.c",
+      "source_sha256": "d281385bf1154bdf22c2f1d477e91e8499973ded0bb36a26e5e25ce06697ebbe",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08007238",
+      "address": "0x080071b0",
+      "size": 282,
+      "source": "candidates/reused/small_7238_trial/candidate.c",
+      "source_sha256": "d4c12f0df6ef383406b6b02d83d39a1b7b12598c07a21309a7c5f0d7ab136ebe",
+      "compiler_flags": [
+        "-O0",
+        "-I",
+        "candidates/reused/small_7238_trial"
+      ],
+      "defsyms": [
+        "FUN_08007a36=0x80079af",
+        "FUN_08007b70=0x8007ae9",
+        "FUN_0800810c=0x8008085"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08007352",
+      "address": "0x80072ca",
+      "size": 102,
+      "source": "candidates/reused/small_r/FUN_08007352.c",
+      "source_sha256": "d6578996f1371d4fbb32b089ed49532bcca42202474a5e93c1829d1c8b7ff031",
+      "compiler_flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Werror"
+      ],
+      "defsyms": [
+        "FUN_08007e7c=0x08007df5",
+        "FUN_0800810c=0x08008085"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_080073b8",
+      "address": "0x08007330",
+      "size": 256,
+      "source": "candidates/reused/small_ai/FUN_080073b8_row.c",
+      "source_sha256": "4ae9e7e568157de0b6266bcecc5e235013448a0ea7e79801af09ed25dc77f00b",
+      "compiler_flags": [
+        "-O0",
+        "-I",
+        "candidates/reused/small_ai"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_080074b8",
+      "address": "0x8007430",
+      "size": 732,
+      "source": "candidates/reused/small_m74b8/typed_rows.c",
+      "source_sha256": "68bf77321556c2d9a65f81982d257eadf2e1dadae91a6b6c3a11d53cf31b654d",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08007794",
+      "address": "0x800770c",
+      "size": 98,
+      "source": "candidates/reused/periph_j/FUN_08007794.c",
+      "source_sha256": "8a9ad954330ca9851d24ecde585cdcd1fbca4d6636d9291ce50024c7197c1569",
+      "compiler_flags": [
+        "-O0",
+        "-mthumb",
+        "-mcpu=cortex-m4",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Werror"
+      ],
+      "defsyms": [
+        "FUN_08007f3c=0x08007eb5"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_080077f6",
+      "address": "0x0800776e",
+      "size": 90,
+      "source": "candidates/reused/small_o/set_bus_request.c",
+      "source_sha256": "62a8050444e34f7581926a9531d127eb47dacf916ea4bcf52b004ee63f6094da",
+      "compiler_flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-I",
+        "candidates/reused/small_o"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08007850",
+      "address": "0x080077c8",
+      "size": 90,
+      "source": "candidates/reused/small_o/set_dac_request.c",
+      "source_sha256": "a2479046515994d727375e6e3dcdc2d847663aef2f96f8bb57a875f60b6e6498",
+      "compiler_flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-I",
+        "candidates/reused/small_o"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_080078aa",
+      "address": "0x08007822",
+      "size": 86,
+      "source": "candidates/reused/small_o/bit_register_helpers.c",
+      "source_sha256": "56be88b5d3242a9a186d271afc7cd1190693a3e535df06e898055c230e693f62",
+      "compiler_flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-I",
+        "candidates/reused/small_o"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08007900",
+      "address": "0x08007878",
+      "size": 88,
+      "source": "candidates/reused/small_o/bit_register_helpers.c",
+      "source_sha256": "56be88b5d3242a9a186d271afc7cd1190693a3e535df06e898055c230e693f62",
+      "compiler_flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-I",
+        "candidates/reused/small_o"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08007958",
+      "address": "0x080078d0",
+      "size": 94,
+      "source": "candidates/reused/small_o/gpio_config.c",
+      "source_sha256": "2c6ce00632deffae3459939fc9272189a1126d60fa0a34eec2d2f808c24eef0c",
+      "compiler_flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-I",
+        "candidates/reused/small_o"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_080079b6",
+      "address": "0x0800792e",
+      "size": 128,
+      "source": "candidates/reused/small_aq/struct_rows.c",
+      "source_sha256": "a1e25e4be1f67ff6801496eb420eed3fa38aca82ae2de6d8cc812df68557365c",
+      "compiler_flags": [
+        "-O0",
+        "-I",
+        "candidates/reused/small_aq"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08007a36",
+      "address": "0x080079ae",
+      "size": 314,
+      "source": "candidates/reused/small_q2/fun_7a36.c",
+      "source_sha256": "fc79751e3adac867adca2b75f59d802d03739213c3f69126d1c31f34c743c942",
+      "compiler_flags": [
+        "-O0",
+        "-I",
+        "candidates/reused/small_q2"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08007b70",
+      "address": "0x8007ae8",
+      "size": 780,
+      "source": "candidates/reused/small_typed7b70/candidate.c",
+      "source_sha256": "72137e0d1061d913d4b21ea5a58038b1896cf0acba5f8db8c5e4652a52e9f21e",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08007e7c",
+      "address": "0x08007df4",
+      "size": 192,
+      "source": "candidates/reused/small_r6/v7e7c_exact.c",
+      "source_sha256": "730a02159f7b6e569128ac7260b813050220e06289ef6ef4c9ce9138ee41e0f6",
+      "compiler_flags": [
+        "-O0",
+        "-I",
+        "candidates/reused/small_r6"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08007f3c",
+      "address": "0x08007eb4",
+      "size": 464,
+      "source": "candidates/reused/small_g7f3c/match.c",
+      "source_sha256": "ac505c86b2ced58a03dc340d18e6e82ba80f6544184a06d25f4cdbb43ef58c11",
+      "compiler_flags": [
+        "-O0",
+        "-I",
+        "candidates/reused/small_g7f3c"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_0800810c",
+      "address": "0x8008084",
+      "size": 220,
+      "source": "candidates/reused/small_r3/FUN_0800810c.c",
+      "source_sha256": "3de9eb43e9f3eacf17f112f4788d5e427b25df0dc623210bafb4f1b52465ffeb",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_080081e8",
+      "address": "0x08008160",
+      "size": 328,
+      "source": "candidates/reused/small_q2/fun_81e8.c",
+      "source_sha256": "9ef9c80f03a297f9ee067d1d736c02846823f9a2dce1719ca8871a707f40a474",
+      "compiler_flags": [
+        "-O0",
+        "-I",
+        "candidates/reused/small_q2"
+      ],
+      "defsyms": [
+        "REG=0x20000000"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08008330",
+      "address": "0x080082a8",
+      "size": 32,
+      "source": "candidates/reused/src/core.c",
+      "source_sha256": "734cd7cae31d4ee4d4d0f96d44881859c7a4215b2dd83528347f4f3856968117",
+      "compiler_flags": [
+        "-O0",
+        "-I",
+        "candidates/reused/src"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08008350",
+      "address": "0x080082c8",
+      "size": 1572,
+      "source": "candidates/reused/small_l8350/FUN_08008350.c",
+      "source_sha256": "55f09c3087054e5875cbe1effab9de9c006de3e508e427b0f7a9a63f2055230f",
+      "compiler_flags": [
+        "-O0",
+        "-I",
+        "candidates/reused/small_l8350"
+      ],
+      "defsyms": [
+        "FUN_08002980=0x80028f9",
+        "FUN_08002a18=0x8002991",
+        "VAR_B=0x20000004"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08008974",
+      "address": "0x80088ec",
+      "size": 632,
+      "source": "candidates/reused/small_m8974/FUN_08008974.c",
+      "source_sha256": "c9f2407b6bdafa497369590cbe711c58ed785c223584f22323051377091e2d04",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [
+        "CLOCK_TBL=0x08009654",
+        "TIMER=0x20000000",
+        "STATE=0x20000004",
+        "FUN_08002a18=0x08002991",
+        "FUN_08008bec=0x08008b65",
+        "FUN_08008cb0=0x08008c29",
+        "FUN_08002980=0x080028f9"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08008bec",
+      "address": "0x08008b64",
+      "size": 196,
+      "source": "candidates/reused/small_e/FUN_08008bec.c",
+      "source_sha256": "546102c87372f7be53e1b9a8718d6991b89e0d0b8a81f858fd17f0dedeb9be6e",
+      "compiler_flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-I",
+        "candidates/reused/small_e"
+      ],
+      "defsyms": [
+        "RCC=0x40021000"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08008cb0",
+      "address": "0x8008c28",
+      "size": 140,
+      "source": "candidates/reused/small_e/clock_divider.c",
+      "source_sha256": "edf04eb682440ab8106d6a65f32fe5051ac1ccb12b8989580a537745bd7e11bf",
+      "compiler_flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections"
+      ],
+      "defsyms": [
+        "RCC=0x40021000"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08008d3c",
+      "address": "0x8008cb4",
+      "size": 1180,
+      "source": "candidates/reused/small_d8d3c/v1.c",
+      "source_sha256": "f6780fd63b23c07964954482a8375e9756bc752580b6c02a8d13ead54a864746",
+      "compiler_flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections"
+      ],
+      "defsyms": [
+        "FUN_08002a18=0x08002991"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_080091d8",
+      "address": "0x08009150",
+      "size": 174,
+      "source": "candidates/reused/small_b91d8/FUN_080091d8.c",
+      "source_sha256": "ad4fbd4cab4ae5035aa6746bb7c959266698e51285f34aa7666a8c4488e51682",
+      "compiler_flags": [
+        "-O0",
+        "-I",
+        "candidates/reused/small_b91d8"
+      ],
+      "defsyms": [
+        "FUN_080025e0=0x800256d",
+        "FUN_080096c4=0x8009351"
+      ],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08009288",
+      "address": "0x08009200",
+      "size": 240,
+      "source": "candidates/reused/small_b9288/FUN_08009288.c",
+      "source_sha256": "1e769f97fa6942428fc04f1f71883e98ff856b9fd38de3c743f6be03be9676c7",
+      "compiler_flags": [
+        "-O0",
+        "-I",
+        "candidates/reused/small_b9288"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_08009378",
+      "address": "0x080092f0",
+      "size": 94,
+      "source": "candidates/reused/periph_h/FUN_08009378.c",
+      "source_sha256": "bade974e0412ba08e9d8628383b0a5fb7b42705fca7ba9de0fbee0c23495be54",
+      "compiler_flags": [
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-O0",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffunction-sections",
+        "-fwrapv",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-I",
+        "candidates/reused/periph_h"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_080096c4",
+      "address": "0x08009350",
+      "size": 360,
+      "source": "candidates/reused/small_f96c4/v1.c",
+      "source_sha256": "8e39af1d3ce5d9b23e1ad88b88389c0122fbf7deb64fcb77daeff8312cae91f3",
+      "compiler_flags": [
+        "-O0",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-asynchronous-unwind-tables",
+        "-fno-unwind-tables",
+        "-I",
+        "candidates/reused/small_f96c4"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_0800982c",
+      "address": "0x080094b8",
+      "size": 300,
+      "source": "candidates/reused/small_r6/FUN_0800982c.c",
+      "source_sha256": "cd6fec9bd11229f497051da974887c24148c93e585409531368d2d2e627ee661",
+      "compiler_flags": [
+        "-O0",
+        "-I",
+        "candidates/reused/small_r6"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Debug (-O0; fragment verification)"
+    },
+    {
+      "name": "FUN_080099e4",
+      "address": "0x080095e4",
+      "size": 16,
+      "source": "candidates/reused/small_s/FUN_080099e4.c",
+      "source_sha256": "73276be39e746e64cce1ceb1ce18eb28af4a6fa3e0506d93e4912a8f53c75cf9",
+      "compiler_flags": [
+        "-Os",
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-I",
+        "candidates/reused/small_s"
+      ],
+      "defsyms": [],
+      "configuration": "STM32CubeIDE Release (-Os; fragment verification)"
+    },
+    {
+      "name": "IRQ_18",
+      "address": "0x08002630",
+      "size": 524,
+      "source": "candidates/probes/irq_end/IRQ_18.c",
+      "source_sha256": "2ec8d75dfdef7386194db57954ed70a0abfc3a9bf281b5f81456306c8bba288f",
+      "compiler_flags": [
+        "-O0"
+      ],
+      "defsyms": [
+        "handle_a=0x20000028",
+        "handle_b=0x20000094",
+        "sample_a=0x200002ac",
+        "sample_b=0x200002b2",
+        "reference=0x200002b4",
+        "hold_outer=0x20000344",
+        "outer_previous=0x20000348",
+        "outer_current=0x2000034c",
+        "limit=0x200002b0",
+        "hold_inner=0x20000350",
+        "inner_previous=0x20000354",
+        "inner_current=0x20000358",
+        "output_handle=0x20000164",
+        "count_enabled=0x20000328",
+        "counter=0x20000326",
+        "read_sample=0x080025b9",
+        "write_pin=0x08005f19",
+        "finish=0x080037f1"
+      ],
+      "configuration": "GNU Tools for STM32 13.3.rel1; -O0 fragment verification (not a full CubeIDE 1.12.0 build)"
+    },
+    {
+      "name": "FUN_080095f4",
+      "address": "0x080095f4",
+      "size": 72,
+      "source": "candidates/probes/init_array_c/c_only_v4/candidate.c",
+      "source_sha256": "12d8af811f9b6bb6770af4e0afd90432e123da0841faaf8c7f9a230f08c5fa38",
+      "compiler_flags": [
+        "-Os",
+        "-std=gnu11",
+        "-g0",
+        "-DUSE_HAL_DRIVER",
+        "-DSTM32G474xx",
+        "-fstack-usage",
+        "-fcyclomatic-complexity",
+        "--specs=nano.specs"
+      ],
+      "defsyms": [
+        "__preinit_array_start=0x08009674",
+        "__preinit_array_end=0x08009674",
+        "__init_array_start=0x08009674",
+        "__init_array_end=0x08009678",
+        "_init=0x0800963d"
+      ],
+      "toolchain_root": "~/.local/opt/gnu-tools-for-stm32-14.3.rel1/tools",
+      "configuration": "STM32CubeIDE Release (-Os; GNU Tools for STM32 14.3.rel1.20251027-0700; reconstructed C)"
+    }
+  ]
+}

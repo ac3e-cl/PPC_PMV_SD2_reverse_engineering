@@ -1,0 +1,22 @@
+{
+  "target_sha256": "5b1f405c2a270c77de55cd59d6b3f9fa0b8e4ca1dedeb99c81eab2047841b752",
+  "classification": "reconstructed_assembly_not_C",
+  "authorization_context": "The user explicitly authorized assembly for the ADC function only; all other reconstructed functions must remain C. This target-specific section is accepted under a separate reconstructed-assembly ledger, never as C.",
+  "name": "FUN_08003cec",
+  "historical_name": "FUN_08003d74",
+  "inferred_name": "HAL_ADC_ConfigChannel",
+  "address": "0x08003cec",
+  "size": 2176,
+  "source_relpath": "Core/Src/assembly/HAL_ADC_ConfigChannel.S",
+  "source_workspace_copy": "reconstruction/assembly_adc/HAL_ADC_ConfigChannel.S",
+  "source_manifest_path": "reconstruction/assembly_adc/manifest.json",
+  "source_sha256": "6b8ca81180099b3d3bd58b6d99ba05518c1900569cd9416bad5b4a8028fbebb8",
+  "historical_firmware_sha256": "6061eaf7d206f075f8c80e78b6ca227219004336b732e5b7c52ddcc2939d606b",
+  "rebase_delta": -136,
+  "symbol_mapping": "Each historical Thumb function symbol is rebased by -0x88; SystemCoreClock remains at 0x20000000.",
+  "historical_literal_pools": [
+    {"start": "0x8004450", "end_exclusive": "0x8004460"},
+    {"start": "0x80045c8", "end_exclusive": "0x80045f4"}
+  ],
+  "assembler_flags": ["-mcpu=cortex-m4", "-mthumb", "-mfloat-abi=hard", "-mfpu=fpv4-sp-d16"]
+}

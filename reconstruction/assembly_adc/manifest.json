@@ -1,0 +1,43 @@
+{
+  "firmware_sha256": "6061eaf7d206f075f8c80e78b6ca227219004336b732e5b7c52ddcc2939d606b",
+  "classification": "reconstructed_assembly_not_C",
+  "authorization": "User selected option 1: reconstruct only the remaining function in readable ARM assembly, no binary patches or embedded instruction bytes",
+  "functions": [
+    {
+      "name": "FUN_08003d74",
+      "inferred_name": "HAL_ADC_ConfigChannel",
+      "address": "0x8003d74",
+      "size": 2176,
+      "source": "HAL_ADC_ConfigChannel.S",
+      "source_sha256": "6b8ca81180099b3d3bd58b6d99ba05518c1900569cd9416bad5b4a8028fbebb8",
+      "binary": "build/HAL_ADC_ConfigChannel.bin",
+      "defsyms": {
+        "FUN_08002a9a": "0x8002a9b",
+        "FUN_08002ac0": "0x8002ac1",
+        "FUN_08002adc": "0x8002add",
+        "FUN_08002b24": "0x8002b25",
+        "FUN_08002b50": "0x8002b51",
+        "FUN_08002b86": "0x8002b87",
+        "FUN_08002bbc": "0x8002bbd",
+        "FUN_08002bf2": "0x8002bf3",
+        "FUN_08002c3e": "0x8002c3f",
+        "FUN_08002cbc": "0x8002cbd",
+        "FUN_08002d14": "0x8002d15",
+        "FUN_08002e80": "0x8002e81",
+        "FUN_08002f1c": "0x8002f1d",
+        "FUN_08002f6a": "0x8002f6b",
+        "SystemCoreClock": "0x20000000"
+      },
+      "literal_pools": [
+        {
+          "start": "0x8004450",
+          "end_exclusive": "0x8004460"
+        },
+        {
+          "start": "0x80045c8",
+          "end_exclusive": "0x80045f4"
+        }
+      ]
+    }
+  ]
+}

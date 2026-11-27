@@ -1,0 +1,73 @@
+{
+  "target_sha256": "5b1f405c2a270c77de55cd59d6b3f9fa0b8e4ca1dedeb99c81eab2047841b752",
+  "classification": "reconstructed_assembly_not_C",
+  "authorization_context": "The user explicitly authorized assembly for the ADC function only; all other reconstructed functions must remain C. This target-specific section is accepted under a separate reconstructed-assembly ledger, never as C.",
+  "source_manifest": "candidates/probes/adc_assembly_reuse/manifest.json",
+  "source_manifest_sha256": "e5de9cfb24d2b05cbb519f2bea8ad0bc1ca60ea35c47006186954b124a34e0e2",
+  "compiler": "arm-none-eabi-gcc (GNU Tools for STM32 13.3.rel1.20240926-1715) 13.3.1 20240614",
+  "assembly_bytes": 2176,
+  "blocks": [
+    {
+      "name": "FUN_08003cec",
+      "kind": "reconstructed_assembly_not_C",
+      "classification": "reconstructed_assembly_not_C",
+      "authorization_context": "The user explicitly authorized assembly for the ADC function only; all other reconstructed functions must remain C. This target-specific section is accepted under a separate reconstructed-assembly ledger, never as C.",
+      "inferred_name": "HAL_ADC_ConfigChannel",
+      "historical_name": "FUN_08003d74",
+      "address": "0x08003cec",
+      "size": 2176,
+      "section": ".text",
+      "source_project": "PPC_PMV_SD2_reverse_engineering/Core/Src/assembly/HAL_ADC_ConfigChannel.S",
+      "source_workspace_copy": "reconstruction/assembly_adc/HAL_ADC_ConfigChannel.S",
+      "source_sha256": "6b8ca81180099b3d3bd58b6d99ba05518c1900569cd9416bad5b4a8028fbebb8",
+      "source_manifest": "reconstruction/assembly_adc/manifest.json",
+      "source_manifest_sha256": "b1f89e65e9798ffc8bc8fcfec369e0d825750cb75ff35389b869db39d696099c",
+      "acceptance_manifest": "candidates/probes/adc_assembly_reuse/manifest.json",
+      "acceptance_manifest_sha256": "e5de9cfb24d2b05cbb519f2bea8ad0bc1ca60ea35c47006186954b124a34e0e2",
+      "historical_firmware_sha256": "6061eaf7d206f075f8c80e78b6ca227219004336b732e5b7c52ddcc2939d606b",
+      "rebase_delta": -136,
+      "symbol_mapping": "Each historical Thumb function symbol is rebased by -0x88; SystemCoreClock remains at 0x20000000.",
+      "historical_literal_pools": [
+        {
+          "start": "0x8004450",
+          "end_exclusive": "0x8004460"
+        },
+        {
+          "start": "0x80045c8",
+          "end_exclusive": "0x80045f4"
+        }
+      ],
+      "assembler_flags": [
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv4-sp-d16"
+      ],
+      "defsyms": {
+        "FUN_08002a9a": "0x8002a13",
+        "FUN_08002ac0": "0x8002a39",
+        "FUN_08002adc": "0x8002a55",
+        "FUN_08002b24": "0x8002a9d",
+        "FUN_08002b50": "0x8002ac9",
+        "FUN_08002b86": "0x8002aff",
+        "FUN_08002bbc": "0x8002b35",
+        "FUN_08002bf2": "0x8002b6b",
+        "FUN_08002c3e": "0x8002bb7",
+        "FUN_08002cbc": "0x8002c35",
+        "FUN_08002d14": "0x8002c8d",
+        "FUN_08002e80": "0x8002df9",
+        "FUN_08002f1c": "0x8002e95",
+        "FUN_08002f6a": "0x8002ee3",
+        "SystemCoreClock": "0x20000000"
+      },
+      "compiler": "arm-none-eabi-gcc (GNU Tools for STM32 13.3.rel1.20240926-1715) 13.3.1 20240614",
+      "verifier": "candidates/probes/adc_assembly_reuse/verify.py",
+      "object": "candidates/probes/adc_assembly_reuse/build/HAL_ADC_ConfigChannel.o",
+      "object_sha256": "b095ff12cc5435861b7f8462ed8ec7bd70e371a9ac656dd43f375ce4ccfcf1f9",
+      "binary": "candidates/probes/adc_assembly_reuse/build/HAL_ADC_ConfigChannel.bin",
+      "binary_sha256": "7b3a582c2659fb3e9339dd216347ef2c687ca0375a65b7c66e371ddfe3a3ece4",
+      "matched": true
+    }
+  ],
+  "note": "This ledger covers the ADC function only. All other reconstructed application functions remain C; the section is never counted as C bytes."
+}

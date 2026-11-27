@@ -1,0 +1,18 @@
+#include <stdint.h>
+extern void reset(void);
+extern void nmi(void);
+extern void hard(void);
+extern void mem(void);
+extern void bus(void);
+extern void usage(void);
+extern void svc(void);
+extern void debug(void);
+extern void pend(void);
+extern void tick(void);
+extern void irq18(void);
+extern void irq55(void);
+extern void irq86(void);
+extern void default_handler(void);
+__attribute__((used,section(".vectors"))) const uintptr_t vectors[]={(uintptr_t)0x20020000,(uintptr_t)&reset,(uintptr_t)&nmi,(uintptr_t)&hard,(uintptr_t)&mem,(uintptr_t)&bus,(uintptr_t)&usage,0,0,0,0,(uintptr_t)&svc,(uintptr_t)&debug,0,(uintptr_t)&pend,(uintptr_t)&tick,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&irq18,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&irq55,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,0,(uintptr_t)&irq86,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler,(uintptr_t)&default_handler};
+__attribute__((used,section(".table"))) const unsigned char table[]={0,0,0,0,0,0,0,0,1,2,3,4,6,7,8,9,0,1,2,3,4,5,6,7,8,12,16,20,24,32,48,64};
+__attribute__((used,section(".initvals"))) const uint32_t initvals[]={16000000,16,1};

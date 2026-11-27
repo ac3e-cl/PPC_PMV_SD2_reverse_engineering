@@ -1,0 +1,9 @@
+# ADC assembly reconstruction (accepted separately)
+
+The complete `HAL_ADC_ConfigChannel` assembly source is accepted for `PPC_PMV_SD2_reverse_engineering.bin` as `reconstructed_assembly_not_C` in `evidence/reconstructed_assembly_accepted.json`. The user authorized assembly for the ADC function only; all other reconstructed application functions remain C. The accepted section is never counted as C.
+
+The source in the reference CubeIDE project and its reconstruction copy are pinned to SHA-256 `6b8ca81180099b3d3bd58b6d99ba05518c1900569cd9416bad5b4a8028fbebb8`. It matches exactly 2,176 bytes at `0x08003cec`; the emitted binary SHA-256 is `7b3a582c2659fb3e9339dd216347ef2c687ca0375a65b7c66e371ddfe3a3ece4`. The source previously matched the function in `firmware.bin` at `0x08003d74`; for this target, helper symbols are rebased by `-0x88`, while `SystemCoreClock` remains `0x20000000`.
+
+Only assembler mnemonics are used for instructions. `.word` directives are checked against the two documented historical literal pools. No binary inclusion, instruction-byte encoding, byte patching, or target bytes as build input are used. The C-only ADC candidate remains a near-match with five differing bytes and is not accepted.
+
+The isolated section verifier is `python3 reconstruction/new_target/candidates/probes/adc_assembly_reuse/verify.py`. The central acceptance and category accounting run via `python3 reconstruction/new_target/verify.py`; `verify_reconstructed_assembly.py` updates the separate ADC ledger. The complete fragment candidate now compares exactly to the target; this remains distinct from a single-link build of the original CubeIDE project.

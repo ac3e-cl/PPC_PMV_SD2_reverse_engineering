@@ -1,0 +1,35 @@
+{
+  "target_sha256": "5b1f405c2a270c77de55cd59d6b3f9fa0b8e4ca1dedeb99c81eab2047841b752",
+  "base_address": "0x08000000",
+  "classification": "ST vendor startup assembly, whitespace-normalized without instruction changes, verified separately from reconstructed C",
+  "upstream": "https://github.com/STMicroelectronics/cmsis-device-g4/blob/e7a2c61fcd8d47e8812ea30c3951d9c88ba9e5f7/Source/Templates/gcc/startup_stm32g474xx.s",
+  "blocks": [
+    {
+      "name": "Reset_Handler (ST vendor startup)",
+      "kind": "vendor_startup_assembly",
+      "address": "0x08002874",
+      "size": 80,
+      "section": ".reset",
+      "source": "../vendor_startup/startup_stm32g474xx.s",
+      "source_sha256": "7babdb6999cd6cac48ee87c1f702b448a3a044f2105c8ae29d5fa2663b872731",
+      "license": "../vendor_startup/LICENSE.md",
+      "license_sha256": "44fd163ed2e04fe99f519f1093c2c39b21d9cc9371071de902ff0c2c8c3c57dc",
+      "assembler_flags": ["-mcpu=cortex-m4", "-mthumb"],
+      "defsyms": [
+        "_estack=0x20020000",
+        "_sdata=0x20000000",
+        "_edata=0x2000000c",
+        "_sidata=0x0800967c",
+        "_sbss=0x2000000c",
+        "_ebss=0x20000360",
+        "SystemInit=0x08002851",
+        "__libc_init_array=0x080095f5",
+        "main=0x08000a99"
+      ],
+      "object": "candidates/vendor_startup/build/reset.o",
+      "elf": "candidates/vendor_startup/build/reset.elf",
+      "linker_script": "candidates/vendor_startup/build/reset.ld",
+      "binary": "candidates/vendor_startup/build/reset.bin"
+    }
+  ]
+}

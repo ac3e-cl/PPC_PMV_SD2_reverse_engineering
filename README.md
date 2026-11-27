@@ -1,36 +1,26 @@
-# PPC_PMV_SD_RE — proyecto STM32CubeIDE (managed Makefile)
+# PPC_PMV_SD2_reverse_engineering — STM32CubeIDE
 
-Proyecto convertido al mismo tipo y configuración STM32CubeIDE que `/home/isaiash/PPC_PMV_SD2`: MCU executable, builder gestionado de CubeIDE/Make, configuraciones `Debug` y `Release`, STM32G474RETx, Cortex-M4, FPv4-SP-D16 y ABI hard. La configuración CubeMX `.ioc`, startup, drivers STM32CubeG4, headers de plataforma y linker scripts se copiaron desde el proyecto base; el nombre de proyecto y las rutas de salida se ajustaron para este repositorio. El código reconstruido permanece bajo `Core/Src` y el header de registros bajo `Core/Inc`.
+Proyecto gestionado para STM32G474RETx (Cortex-M4, FPv4-SP-D16, ABI hard), con configuraciones Debug/Release, `.ioc`, startup, linker scripts y dependencias CMSIS/HAL. En STM32CubeIDE impórtalo con **File → Import → General → Existing Projects into Workspace** y selecciona esta carpeta.
 
-Se conservaron los fragmentos fuente: 124 unidades C con 178 funciones aceptadas por matching, más `HAL_ADC_ConfigChannel` en ensamblador legible. Esa función no se cuenta como C.
+## Reconstruir el BIN exacto
 
-## Abrir y compilar
-
-Importa el repositorio en STM32CubeIDE mediante `File > Import... > General > Existing Projects into Workspace`, seleccionando la raíz para detectar `.project`. El proyecto incluye las configuraciones `Debug` y `Release`; la configuración del dispositivo corresponde a STM32G474RETx y el `.ioc` conserva el proyecto CubeMX base.
-
-El `.cproject` produce un ejecutable STM32CubeIDE (`.elf`) y tiene habilitadas las salidas HEX/BIN igual que el proyecto base. **Sin embargo, el conjunto de fuentes reconstruidas de este repositorio no contiene el programa completo ni todas las unidades de aplicación requeridas para un enlace de firmware arrancable** (por ejemplo, `main` y el wiring de interrupciones/MSP de la aplicación). Por tanto, la configuración de IDE se conserva, pero no afirmo que este source set actual pueda producir un nuevo ELF/BIN válido. No agregué código de aplicación del proyecto base ni un `main()` ficticio para ocultar esa carencia.
-
-## Fuentes y pruebas de matching
-
-Con Python 3.10+ y GNU Tools for STM32 13.3.1 ejecuta desde la raíz:
+Desde la raíz del repositorio ejecuta:
 
 ```sh
-python3 tests/test_sources.py
-# o
+make firmware
+```
+
+El objetivo recompila y compara estrictamente las secciones fuente aceptadas, runtime, datos, startup ST, ensamblador ADC y alineaciones verificadas; arma el candidato completo en `reconstruction/new_target/full_image/build/candidate.bin`, exige 38.536 bytes y cero diferencias, y actualiza `bin/PPC_PMV_SD2_reverse_engineering.bin`. El BIN versionado se usa como referencia de comparación; el constructor no copia bytes de esa referencia para rellenar huecos. Los verificadores exigen cobertura completa antes de producir el candidato.
+
+Requisitos: Python 3.10+, GNU Make y las versiones exactas **GNU Tools for STM32 13.3.1** y **14.3.1**. Los valores por defecto esperan las instalaciones bajo `~/.local/opt/gnu-tools-for-stm32-13.3.rel1` y `~/.local/opt/gnu-tools-for-stm32-14.3.rel1/tools`. Si están en otra ubicación, configura `ARM_TC` y `ARM_TC_14_3`, respectivamente.
+
+```sh
 make test
+(cd bin && sha256sum -c PPC_PMV_SD2_reverse_engineering.bin.sha256)
 ```
 
-Esto compila las 124 unidades C y ensambla/enlaza `HAL_ADC_ConfigChannel` en su dirección original; se exige el tamaño y SHA-256 exactos para sus 2.176 bytes. La prueba de C es compile-only, no prueba el enlace completo ni verifica byte-matching de cada función; los flags, direcciones, símbolos y hashes aceptados están en `manifest.json`.
+## Alcance y procedencia
 
-## Artefactos precompilados
+La imagen final se reconstruye a partir de fragmentos independientes con direcciones fijas y después se verifica byte por byte. Incluye 165 secciones C, 2.176 bytes de ensamblador reconstruido para ADC, runtime, datos, startup de ST y 22 bytes de alineación. El ensamblador ADC y el startup de proveedor están clasificados por separado; no se cuentan como C.
 
-`artifacts/Release/` conserva la biblioteca estática generada antes del cambio de tipo de proyecto y el par `firmware.elf`/`firmware.bin` de la reconstrucción mixta completa verificada. El binario es de 39.560 bytes y coincide byte por byte con la imagen de referencia. El ELF es un contenedor ejecutable mínimo del mismo binario, con un único segmento `.firmware`, entry del vector de reset y sin símbolos DWARF. **Estos artefactos no se regeneran desde el source set actual de este proyecto**; sus procedencias y checksums están documentados en `artifacts/Release/README.md`.
-
-Verifica los checksums desde `artifacts/Release/`:
-
-```sh
-sha256sum -c firmware.sha256
-sha256sum -c libPPC_PMV_SD2_reverse_engineering.a.sha256
-```
-
-No se validó el firmware completo en hardware ni se flasheó. La placa auxiliar no era la placa objetivo. No usar estos archivos para energizar una etapa de potencia sin revisar el hardware y el firmware de destino.
+El proyecto es importable en CubeIDE, pero su conjunto de fuentes no constituye un enlace integral de una aplicación original completa ni produce por sí solo un ELF depurable equivalente. No se probó la importación con la GUI (CubeIDE no está instalado en este entorno); el flujo reproducible del BIN es `make firmware`, que puede ejecutarse desde una terminal integrada del IDE. No se flasheó hardware.
